@@ -1,0 +1,458 @@
+# ================================================================
+#                 TW NETWORK - AWESOMECHAT CONFIG
+# ================================================================
+
+# Prefixo padrao das mensagens do plugin
+prefix: "&8[&cTW Network&8] "
+
+# Integracao com PlaceholderAPI
+placeholderAPI:
+  enabled: true
+
+# Integracao nativa com LuckPerms para prefixos e sufixos
+luckperms:
+  enabled: true
+  prefix-suffix: true
+
+# Variaveis internas de chat
+placeholders:
+  enabled: true
+  chat:
+    username: "{player}"
+    message: "{message}"
+    prefix: "{prefix}"
+    suffix: "{suffix}"
+
+# Suporte a cores (&a, &c, etc) e codigos Hex (&#RRGGBB)
+color-codes:
+  enabled: true
+  permission-based: true  # Apenas quem tiver permissao usa cores no chat
+
+# Mensagens clicaveis no chat
+clickable-messages:
+  enabled: true
+  action: "fill"
+  command: "/msg %player% "
+
+# Mensagens com efeito Hover (passar o mouse por cima)
+hoverable-messages:
+  enabled: true
+
+  # Hover global dinamico compativel com todos os Ranks, VIPs e Staff
+  global:
+    username:
+      - "&c&lTW &f&lNETWORK"
+      - "&7Jogador: &f%player%"
+      - "&7Rank: %luckperms_prefix%"
+      - "&7Ping: &a%player_ping%ms"
+      - ""
+      - "&eClique para enviar uma mensagem privada!"
+    username-click-action: "/msg %player% "
+    username-click-type: "suggest"
+
+    message:
+      - "&7Enviado as: &f%server_time_HH:mm:ss%"
+      - "&7Clique para copiar o texto"
+    message-click-action: "%message%"
+    message-click-type: "copy"
+
+  # Desativado por grupo para permitir que o global use placeholders dinamicos
+  per-group:
+    enabled: false
+    groups: {}
+
+# Formatacao visual do chat
+chat-format:
+  enabled: true
+  # Formato global: O prefixo vem do LuckPerms de acordo com o maior peso
+  global_format: "{prefix}&r{player}&8: &f{message}"
+
+  # Som ao enviar mensagem (suave, sem estourar o audio)
+  sound:
+    enabled: true
+    global:
+      name: "BLOCK_NOTE_BLOCK_HAT"
+      volume: 0.2
+      pitch: 1.8
+    per-group:
+      enabled: false
+
+  # Desativado para herdar diretamente as tags e cores definidas no LuckPerms
+  per-group-format:
+    enabled: false
+    groups: {}
+
+# ================================================================
+#            Mensagens de Entrada / Saida / MOTD
+# ================================================================
+# Desativado aqui para evitar conflitos com o MiniMOTD ja presente no servidor
+join-leave:
+  enabled: false
+  join-message: "&8[&a+&8] &7{player}"
+  leave-message: "&8[&c-&8] &7{player}"
+  hide-vanished: true
+  first-join:
+    enabled: true
+    message: "&e&lBEM-VINDO &b{player} &e&lao TW Network pela primeira vez!"
+  per-group:
+    enabled: false
+  join-sound:
+    name: "none"
+    volume: 1.0
+    pitch: 1.0
+  leave-sound:
+    name: "none"
+    volume: 1.0
+    pitch: 1.0
+  motd:
+    enabled: false
+
+# ================================================================
+#            Sistema de Canais de Chat
+# ================================================================
+channels:
+  staff:
+    display-name: "Staff"
+    prefix: "&8[&c&lSTAFF&8]&r "
+    permission: "awesomechat.channel.staff"
+    format: "{prefix}&c{player}&8: &f{message}"
+    sound: "BLOCK_NOTE_BLOCK_PLING"
+    volume: 0.5
+    pitch: 1.5
+    auto-join: false
+    command: /sc
+    join-message: "&aVoce entrou no canal &fStaff&a. Suas mensagens serao enviadas aqui."
+    leave-message: "&eVoce saiu do canal &fStaff&e e retornou ao Global."
+    alerts:
+      enabled: false
+
+  admin:
+    display-name: "Admin"
+    prefix: "&8[&4&lADMIN&8]&r "
+    permission: "awesomechat.channel.admin"
+    format: "{prefix}&4{player}&8: &f{message}"
+    sound: "BLOCK_NOTE_BLOCK_BELL"
+    volume: 0.5
+    pitch: 1.0
+    auto-join: false
+    command: /ac
+    join-message: "&aVoce entrou no canal &fAdmin&a."
+    leave-message: "&eVoce saiu do canal &fAdmin&e e retornou ao Global."
+    alerts:
+      enabled: false
+
+  vip:
+    display-name: "VIP"
+    prefix: "&8[&6&lVIP&8]&r "
+    permission: "awesomechat.channel.vip"
+    format: "{prefix}&6{player}&8: &e{message}"
+    sound: "none"
+    volume: 1.0
+    pitch: 1.0
+    auto-join: false
+    command: /vc
+    join-message: "&aVoce entrou no canal &fVIP&a."
+    leave-message: "&eVoce saiu do canal &fVIP&e e retornou ao Global."
+    alerts:
+      enabled: false
+
+# ================================================================
+#            Mensagens Privadas (/msg, /tell, /r)
+# ================================================================
+private-messages:
+  enabled: true
+
+  socialspy:
+    enabled: true
+
+  format:
+    sender: "&8[&bVoce &8-> &b{receiver}&8] &f{message}"
+    receiver: "&8[&b{sender} &8-> &bVoce&8] &f{message}"
+    spy: "&8[&c&lSPY&8] &7{sender} &8-> &7{receiver}&8: &f{message}"
+
+  hover:
+    enabled: true
+    sender-hover:
+      - "&bJogador: &f%sender%"
+      - ""
+      - "&eClique para responder!"
+    sender-click-action: "/msg %player% "
+    sender-click-type: "suggest"
+
+    receiver-hover:
+      - "&bJogador: &f%receiver%"
+      - ""
+      - "&eClique para enviar outra mensagem!"
+    receiver-click-action: "/msg %player% "
+    receiver-click-type: "suggest"
+
+    message-hover:
+      - "&7Clique para copiar a mensagem"
+    message-click-action: "%message%"
+    message-click-type: "copy"
+
+  sound:
+    sent:
+      name: "ENTITY_EXPERIENCE_ORB_PICKUP"
+      volume: 40
+      pitch: 1.5
+    received:
+      name: "BLOCK_NOTE_BLOCK_PLING"
+      volume: 60
+      pitch: 1.8
+
+  errors:
+    use-plugin-prefix: true
+    player-not-found: "&cEsse jogador nao foi encontrado ou esta offline."
+    reply-target-not-found: "&cVoce nao tem ninguem para responder no momento."
+    cannot-message-yourself: "&cVoce nao pode enviar mensagens para si mesmo."
+    messages-disabled: "&cEsse jogador desativou as mensagens privadas."
+    self-messages-disabled: "&cVoce desativou as suas mensagens privadas."
+    no-permission: "&cVoce nao possui permissao para executar este comando."
+
+# ================================================================
+#            Comandos de Moderacao e Avisos
+# ================================================================
+mutechat:
+  announce: true
+  log: true
+  muted-message: "{prefix}&cO chat publico foi silenciado por &f{player}&c."
+  unmuted-message: "{prefix}&aO chat publico foi reativado por &f{player}&a."
+  player-message: "&cO chat esta temporariamente desativado pela equipe."
+
+clearchat:
+  line-count: 100
+  show-announcement: true
+  announcement: "{prefix}&7O chat foi limpo por &f{player}&7."
+  announcement-self: "{prefix}&aSeu chat foi limpo com sucesso."
+  bypass-message: "&7&oSeu chat nao foi limpo devido a sua permissao de Staff."
+  no-permission-all: "{prefix}&cVoce nao tem permissao para limpar o chat global."
+  no-permission-self: "{prefix}&cVoce nao tem permissao para limpar seu proprio chat."
+  log: true
+
+broadcast:
+  enabled: true
+  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  format:
+    - ""
+    - "&c&lTW &f&lNETWORK &8» &e&lAVISO"
+    - "&f%message%"
+    - ""
+
+messages:
+  muted: "&cVoce esta mutado e nao pode falar no chat!"
+  toggle-chat-sounds:
+    enabled: "&aSons de chat &fativados&a."
+    disabled: "&7Sons de chat &fdesativados&8."
+
+# ================================================================
+#            Atalhos de Emojis
+# ================================================================
+emoji:
+  enabled: true
+  shortcuts:
+    heart: "\u2764"
+    star: "\u2B50"
+    skull: "\u2620"
+    check: "\u2714"
+    cross: "\u2716"
+    fire: "\uD83D\uDD25"
+    smile: "\u263A"
+    sad: "\u2639"
+    arrow: "\u27A4"
+    music: "\u266B"
+    diamond: "\u2666"
+    crown: "\u2654"
+    sword: "\u2694"
+    shield: "\uD83D\uDEE1"
+    wave: "\uD83D\uDC4B"
+    thumbsup: "\uD83D\uDC4D"
+    thumbsdown: "\uD83D\uDC4E"
+    eyes: "\uD83D\uDC40"
+    warning: "\u26A0"
+    sparkle: "\u2728"
+
+# ================================================================
+#            Mencoes / Pings no Chat (@Player)
+# ================================================================
+mentions:
+  enabled: true
+
+  player:
+    enabled: true
+    require-at-symbol: true
+    format: "&e@%player%"
+    sound:
+      enabled: true
+      name: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 1.0
+      pitch: 1.2
+    title:
+      enabled: false
+      text: "&e&lMencao!"
+      subtitle: "&7%sender% mencionou voce"
+      fade-in: 10
+      stay: 70
+      fade-out: 20
+    actionbar:
+      enabled: true
+      message: "&e%sender% mencionou voce no chat!"
+    chat-message:
+      enabled: false
+      text: "&8[&e!&8] &e%sender% &7mencionou voce no chat!"
+
+  role:
+    enabled: true
+    require-at-symbol: true
+    format: "&b@(%role%)"
+    sound:
+      enabled: true
+      name: ENTITY_EXPERIENCE_ORB_PICKUP
+      volume: 1.0
+      pitch: 1.2
+    title:
+      enabled: false
+      text: ""
+      subtitle: ""
+      fade-in: 10
+      stay: 70
+      fade-out: 20
+    actionbar:
+      enabled: true
+      message: "&b%sender% mencionou o seu cargo &f(%role%)&b!"
+    chat-message:
+      enabled: false
+      text: ""
+
+  everyone:
+    enabled: true
+    require-at-symbol: true
+    format: "&c&l@everyone"
+    sound:
+      enabled: true
+      name: BLOCK_NOTE_BLOCK_PLING
+      volume: 1.0
+      pitch: 1.0
+    title:
+      enabled: true
+      text: "&c&l@everyone"
+      subtitle: "&7%sender% mencionou todos no servidor!"
+      fade-in: 10
+      stay: 70
+      fade-out: 20
+    actionbar:
+      enabled: true
+      message: "&c%sender% mencionou @everyone!"
+    chat-message:
+      enabled: false
+      text: ""
+
+  here:
+    enabled: true
+    require-at-symbol: true
+    format: "&c@here"
+    sound:
+      enabled: true
+      name: BLOCK_NOTE_BLOCK_PLING
+      volume: 1.0
+      pitch: 0.8
+    title:
+      enabled: false
+      text: ""
+      subtitle: ""
+      fade-in: 10
+      stay: 70
+      fade-out: 20
+    actionbar:
+      enabled: true
+      message: "&c%sender% mencionou @here!"
+    chat-message:
+      enabled: false
+      text: ""
+
+# ================================================================
+#            Raio de Chat (Local / Global)
+# ================================================================
+# Desativado: Servidor de Rankup opera melhor com Chat Global padrao
+chat-radius:
+  enabled: false
+  default-radius: 100
+  cross-world: false
+  shout-prefix: "!"
+  shout-format: "&c[GRITO] &r"
+  per-group:
+    enabled: false
+    groups: {}
+
+# ================================================================
+#            Exibicao de Itens no Chat ([item], [inv])
+# ================================================================
+item-display:
+  enabled: true
+  snapshot-ttl-seconds: 300
+  expired-message: "&cEssa visualizacao de inventario expirou."
+  require-permission-to-view: false
+  trigger-prefix: "["
+  trigger-suffix: "]"
+  formats:
+    item: "&f[{item}&f &7x{count}&f]"
+    empty-hand: "&7[Mao Vazia]"
+    inventory: "&a[Inventario de {player}]"
+    enderchest: "&5[Ender Chest de {player}]"
+    command: "&6[{command}]"
+  hover-text:
+    inventory: "&eClique para ver o inventario"
+    enderchest: "&eClique para ver o Ender Chest"
+    command: "&eClique para usar {command}"
+  gui-titles:
+    item: "Item de {player}"
+    inventory: "Inventario de {player}"
+    enderchest: "Ender Chest de {player}"
+  custom-triggers: {}
+
+# ================================================================
+#            Logs do Chat
+# ================================================================
+chat-logging:
+  enabled: true
+  storage-type: "sqlite"
+  sqlite:
+    file: "chat-logs.db"
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "awesomechat"
+    username: "root"
+    password: ""
+  page-size: 7
+  log-format: "&7{timestamp} &8- &b{player}&7: &f{message}"
+  log-filtered: true
+  log-commands: false
+
+# ================================================================
+#            Seletor de Cor (/chatcolor)
+# ================================================================
+chatcolor:
+  enabled: true
+  custom-gradients: {}
+
+# ================================================================
+#            API Publica
+# ================================================================
+api:
+  enabled: true
+  moderator-permission: "awesomechat.moderator"
+
+# ================================================================
+#            Ajustes do Motor Bukkit / Paper
+# ================================================================
+minimessage:
+  enabled: false
+
+chat-formatting:
+  enabled: true
+
+disable-chat-signing: false
+
+# Nao alterar este valor
+config-version: 22

@@ -1,0 +1,200 @@
+1792329354888:stop
+1792330550753:asl relaod
+1792330553927:asl reload
+1792330809205:stop
+1792331066735:minimotd reload
+1792332105979:stop
+1792332177065:mv version
+1792332206278:op TeDabliukk
+1792344441799:stop
+1792345814037:# Definindo o grupo padrão (Carvão)
+1792345814054:lp group default setweight 10
+1792345814068:lp group default meta setprefix 10 "&8[Carvão] "
+1792345814081:# Ranks Evolutivos
+1792345814090:lp creategroup neve
+1792345814099:lp group neve setweight 20
+1792345814117:lp group neve setdisplayname "Neve"
+1792345814129:lp group neve meta setprefix 20 "&f[Neve] "
+1792345814136:lp creategroup sino
+1792345814149:lp group sino setweight 30
+1792345814159:lp group sino setdisplayname "Sino"
+1792345814232:lp group sino meta setprefix 30 "&6[Sino] "
+1792345814248:lp creategroup biscoito
+1792345814270:lp group biscoito setweight 40
+1792345814315:lp group biscoito setdisplayname "Biscoito"
+1792345814349:lp group biscoito meta setprefix 40 "&e[Biscoito] "
+1792345814367:lp creategroup duende
+1792345814401:lp group duende setweight 50
+1792345814412:lp group duende setdisplayname "Duende"
+1792345814428:lp group duende meta setprefix 50 "&2[Duende] "
+1792345814441:lp creategroup rena
+1792345814446:lp group rena setweight 60
+1792345814460:lp group rena setdisplayname "Rena"
+1792345814488:lp group rena meta setprefix 60 "&c[Rena] "
+1792345814510:lp creategroup treno
+1792345814529:lp group treno setweight 70
+1792345814546:lp group treno setdisplayname "Trenó"
+1792345814562:lp group treno meta setprefix 70 "&4[Trenó] "
+1792345814575:lp creategroup quebranozes
+1792345814604:lp group quebranozes setweight 80
+1792345814643:lp group quebranozes setdisplayname "Quebra-Nozes"
+1792345814651:lp group quebranozes meta setprefix 80 "&9[Quebra-Nozes] "
+1792345814666:lp creategroup estrela
+1792345814673:lp group estrela setweight 90
+1792345814686:lp group estrela setdisplayname "Estrela"
+1792345814702:lp group estrela meta setprefix 90 "&e&l[Estrela] "
+1792345814706:lp creategroup noel
+1792345814712:lp group noel setweight 100
+1792345814717:lp group noel setdisplayname "Noel"
+1792345814733:lp group noel meta setprefix 100 "&c&l[Noel] "
+1792345814744:# Prestígios
+1792345814749:lp creategroup grinch
+1792345814756:lp group grinch setweight 110
+1792345814766:lp group grinch setdisplayname "Grinch"
+1792345814776:lp group grinch meta setprefix 110 "&2&l[Grinch] "
+1792345814878:lp creategroup yeti
+1792345814884:lp group yeti setweight 120
+1792345814894:lp group yeti setdisplayname "Yeti"
+1792345814902:lp group yeti meta setprefix 120 "&b&l[Yeti] "
+1792345814910:lp creategroup krampus
+1792345814916:lp group krampus setweight 130
+1792345814935:lp group krampus setdisplayname "Krampus"
+1792345814961:lp group krampus meta setprefix 130 "&4&l[Krampus] "
+1792345814968:# VIPs
+1792345814976:lp creategroup vip_festivo
+1792345814983:lp group vip_festivo setweight 210
+1792345815005:lp group vip_festivo setdisplayname "VIP Festivo"
+1792345815013:lp group vip_festivo meta setprefix 210 "&a&l[FESTIVO] "
+1792345815019:lp creategroup vip_nevasca
+1792345815028:lp group vip_nevasca setweight 220
+1792345815045:lp group vip_nevasca setdisplayname "VIP Nevasca"
+1792345815052:lp group vip_nevasca meta setprefix 220 "&b&l[NEVASCA] "
+1792345815062:lp creategroup vip_polar
+1792345815068:lp group vip_polar setweight 230
+1792345815077:lp group vip_polar setdisplayname "VIP Polar"
+1792345815085:lp group vip_polar meta setprefix 230 "&f&l[POLAR] "
+1792345815094:# Staff
+1792345815100:lp creategroup ajudante
+1792345815105:lp group ajudante setweight 310
+1792345815112:lp group ajudante setdisplayname "Ajudante"
+1792345815120:lp group ajudante meta setprefix 310 "&e[Ajudante] "
+1792345815133:lp creategroup moderador
+1792345815139:lp group moderador setweight 320
+1792345815146:lp group moderador setdisplayname "Moderador"
+1792345815152:lp group moderador meta setprefix 320 "&2[Mod] "
+1792345815161:lp creategroup administrador
+1792345815167:lp group administrador setweight 330
+1792345815176:lp group administrador setdisplayname "Administrador"
+1792345815196:lp group administrador meta setprefix 330 "&c[Admin] "
+1792345815202:lp creategroup gerente
+1792345815206:lp group gerente setweight 340
+1792345815211:lp group gerente setdisplayname "Gerente"
+1792345815217:lp group gerente meta setprefix 340 "&4[Gerente] "
+1792345815226:lp creategroup dono
+1792345815236:lp group dono setweight 350
+1792345815246:lp group dono setdisplayname "Dono"
+1792345816980:lp group dono meta setprefix 350 "&4&l[DONO] "
+1792345831463:# Herança de Ranks (cada rank herda as permissões do anterior)
+1792345831468:lp group neve setparent default
+1792345831473:lp group sino setparent neve
+1792345831479:lp group biscoito setparent sino
+1792345831482:lp group duende setparent biscoito
+1792345831487:lp group rena setparent duende
+1792345831496:lp group treno setparent rena
+1792345831501:lp group quebranozes setparent treno
+1792345831505:lp group estrela setparent quebranozes
+1792345831511:lp group noel setparent estrela
+1792345831514:# Herança de Prestígios
+1792345831517:lp group grinch setparent noel
+1792345831527:lp group yeti setparent grinch
+1792345831535:lp group krampus setparent yeti
+1792345831545:# Herança de VIPs (Nevasca herda Festivo, Polar herda Nevasca)
+1792345831549:lp group vip_nevasca setparent vip_festivo
+1792345831557:lp group vip_polar setparent vip_nevasca
+1792345831566:# Herança da Staff
+1792345831571:lp group moderador setparent ajudante
+1792345831580:lp group administrador setparent moderador
+1792345831586:lp group gerente setparent administrador
+1792345833493:lp group dono setparent gerente
+1792345926128:lp group neve parent set default
+1792345926139:lp group sino parent set neve
+1792345926144:lp group biscoito parent set sino
+1792345926148:lp group duende parent set biscoito
+1792345926151:lp group rena parent set duende
+1792345926155:lp group treno parent set rena
+1792345926163:lp group quebranozes parent set treno
+1792345926168:lp group estrela parent set quebranozes
+1792345928436:lp group noel parent set estrela
+1792345935234:lp group grinch parent set noel
+1792345935239:lp group yeti parent set grinch
+1792345935929:lp group krampus parent set yeti
+1792345941303:lp group vip_nevasca parent set vip_festivo
+1792345941879:lp group vip_polar parent set vip_nevasca
+1792345946601:lp group moderador parent set ajudante
+1792345946606:lp group administrador parent set moderador
+1792345946613:lp group gerente parent set administrador
+1792345947149:lp group dono parent set gerente
+1792345968990:# AwesomeChat (falar e ler o chat público)
+1792345968997:lp group default permission set awesomechat.chat true
+1792345969005:lp group default permission set awesomechat.local true
+1792345969013:# Multiverse-Core (permissão padrão de acesso a mundos livres)
+1792345981538:lp group default permission set multiverse.access.world true
+1792346014499:# VIP Festivo: Cores no chat
+1792346014506:lp group vip_festivo permission set awesomechat.color true
+1792346014520:# VIP Nevasca: Cores + Formatação (itálico/sublinhado)
+1792346014531:lp group vip_nevasca permission set awesomechat.format true
+1792346014544:# VIP Polar: Acesso a canais prioritários e bypass de cooldowns de chat
+1792346016413:lp group vip_polar permission set awesomechat.bypass.cooldown true
+1792346026053:# Ajudante: Visualizar canais de staff e mutar/limpar chat
+1792346026059:lp group ajudante permission set awesomechat.staff true
+1792346026065:lp group ajudante permission set awesomechat.clearchat true
+1792346026081:# Moderador: Acesso a mundos pelo Multiverse e controle de mute/kick
+1792346026088:lp group moderador permission set multiverse.access.* true
+1792346026097:lp group moderador permission set multiverse.teleport.* true
+1792346026104:# Administrador: Comandos de recarga e WorldEdit essencial
+1792346026115:lp group administrador permission set awesomechat.admin true
+1792346026120:lp group administrador permission set placeholderapi.reload true
+1792346026130:lp group administrador permission set tab.admin true
+1792346026139:lp group administrador permission set worldedit.navigation.* true
+1792346026150:lp group administrador permission set worldedit.selection.* true
+1792346026157:lp group administrador permission set worldedit.region.* true
+1792346026162:# Gerente e Dono: Acesso irrestrito
+1792346026166:lp group gerente permission set worldedit.* true
+1792346026172:lp group gerente permission set multiverse.core.* true
+1792346026186:lp group gerente permission set luckperms.user.info true
+1792346027344:lp group dono permission set * true
+1792346073594:lp user TeDabliukk parent add dono
+1792346139743:lp user TeDabliukk setprimarygroup carvao
+1792346180898:lp user TeDabliukk parent switchprimarygroup carvao
+1792346195954:lp user TeDabliukk parent switchprimarygroup Carvao
+1792346201468:lp user TeDabliukk parent switchprimarygroup Carvão
+1792346226983:lp user TeDabliukk parent switchprimarygroup default
+1792346251445:lp user TeDabliukk parent add vip_polar
+1792346290772:stop
+1792346820856:tab reload
+1792347111156:awesomechat reload
+1792347699606:/mvm set gamemode adventure <mundo>
+1792347699677:/mvm set diff peaceful <mundo>
+1792347699687:/mvm set pvp false <mundo>
+1792347699709:/mvm set hunger false <mundo>
+1792347699724:/mvm set monsters false <mundo>
+1792347699784:/mvm set animals false <mundo>
+1792347699816:/mvm set weather false <mundo>
+1792347699844:/mvm set autoheal true <mundo>
+1792347815498:/mvm set keepspawninmemory true <mundo>mvm set gamemode adventure world
+1792347815595:mvm set diff peaceful world
+1792347815614:mvm set pvp false world
+1792347815658:mvm set hunger false world
+1792347815682:mvm set monsters false world
+1792347815699:mvm set animals false world
+1792347815726:mvm set weather false world
+1792347815741:mvm set autoheal true world
+1792347825838:mvm set keepspawninmemory true world
+1792348003947:stop
+1792348324866:mv list
+1792348526477:awesomechat reload
+1792348552242:stop
+1792352169327:mv reload
+1792352440269:reload
+1792355115416:ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd3333333333333333333333336222222222222222222222222 2121211111111111111111111111111111111111111111s11510
+1792356526338:stop

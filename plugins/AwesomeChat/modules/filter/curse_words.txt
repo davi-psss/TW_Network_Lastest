@@ -1,0 +1,30 @@
+# ===============================================================
+# Curse / general profanity
+# Wildcard rules:
+#   word      -> exact word only
+#   word*     -> starts with word
+#   *word     -> ends with word
+#   *word*    -> contains word
+# ===============================================================
+
+fuck*
+fuk*
+fk*
+shit*
+sht
+bullshit
+bitch*
+btch*
+bich*
+bastard*
+ass
+asshole*
+dick*
+cock*
+twat*
+prick*
+dipshit
+jackass
+dumbass
+motherfucker*
+sonofabitch
