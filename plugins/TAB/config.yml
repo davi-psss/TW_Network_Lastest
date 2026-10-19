@@ -71,25 +71,25 @@ bossbar:
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
-  enabled: false
+  enabled: true
   toggle-command: /sb
-  remember-toggle-choice: false
+  remember-toggle-choice: true
   hidden-by-default: false
   delay-on-join-milliseconds: 0
   scoreboards:
-    scoreboard:
-      title: "<#E0B11E>TW Network</#FF0000>"
+    lobby_rankup:
+      title: "<#FFB800>&lSERVIDOR RANKUP</#FFA000>"
       lines:
-        - "&7%date%"
-        - "%animation:MyAnimation1%"
-        - "&6Online:"
-        - "* &eOnline&7: &f%online%"
-        - "* &eStaff&7: &f%staffonline%"
+        - "&7&m---------------------"
+        - "&fJogador: &e%player_name%"
+        - "&fRank: %luckperms_prefix%"
         - ""
-        - "&6Informacoes:"
-        - "* &bRank&7: &f%group%"
-        - "* &bPing&7: &f%ping%&8ms"
-        - "%animation:MyAnimation1%"
+        - "&fSaldo: &a$%vault_eco_balance_formatted%"
+        - ""
+        - "&fOnline: &b%server_online%&7/&f%server_max_players%"
+        - "&fPing: &a%player_ping%ms"
+        - "&7&m---------------------"
+        - "&eplay.seuservidor.com"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
 layout:

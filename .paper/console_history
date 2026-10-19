@@ -198,3 +198,615 @@
 1792352440269:reload
 1792355115416:ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd3333333333333333333333336222222222222222222222222 2121211111111111111111111111111111111111111111s11510
 1792356526338:stop
+1792363110531:reload
+1792363122545:stop
+1792364250266:/lp group default permission set essentials.spawn true
+1792364250276:/lp group default permission set essentials.msg true
+1792364250288:/lp group default permission set essentials.reply true
+1792364254257:/lp group default permission set essentials.afk true
+1792364264685:/lp group default permission set essentials.build false
+1792364265424:/lp group default permission set essentials.sethome false
+1792364272394:/lp group default permission set deluxemenus.open true
+1792364273413:/lp group default permission set deluxemenus.gui.* true
+1792364285285:/lp group default permission set fancynpcs.interact true
+1792364292257:/lp group default permission set procosmetics.open true
+1792364312905:/lp group default info
+1792365721427:essc reload
+1792365880519:/dm reload
+1792365928023:dm reload
+1792366400744:/papi ecloud download Player
+1792366400749:/papi ecloud download Vault
+1792366400753:/papi ecloud download LuckPerms
+1792366403176:/papi reload
+1792366444537:/papi ecloud download player
+1792366463357:> /papi ecloud download luckperms
+1792366472190:/papi ecloud download luckperms
+1792366477989:papi reload
+1792368924882:/procosmetics reload
+1792368951485:/lp group default permission set procosmetics.open true
+1792368951492:/lp group default permission set procosmetics.particle_effects true
+1792368951498:/lp group default permission set procosmetics.balloons true
+1792368953033:/lp group default permission set procosmetics.emotes true
+1792369270566:stop
+1792370671013:/lp group default permission set procosmetics.open true
+1792370671025:/lp group default permission set procosmetics.particle_effects true
+1792370671034:/lp group default permission set procosmetics.balloons true
+1792370675276:/lp group default permission set procosmetics.emotes true
+1792370688811:lp reload
+1792370697805:lp reloadconfig
+1792370735501:/lp group default permission set procosmetics.menu true
+1792370749372:lp reloadconfig
+1792370994819:lp group default permission set procosmetics.command.cosmetics true
+1792371051846:dm reload
+1792371088799:lp reloadconfig\\]
+1792371097229:lp reloadconfig
+1792371212498:fancyholograms reload
+1792371221435:stop
+1792371412418:/hologram edit boas-vindas set_line 2 <gray>O teu Rank: %luckperms_prefix%</gray>
+1792371438286:/hologram edit boas-vindas setline 3 <gray>O teu Rank: %luckperms_prefix%</gray>
+1792371481868:/hologram edit boas-vindas setline 3 O teu Rank: %luckperms_prefix%
+1792371687879:tab reload
+1792371784926:/papi ecloud download Server
+1792371797456:/papi reload
+1792372927474:/lp editor
+1792372948239:/lp trusteditor 3f26-8a79
+1792373288576:stop
+1792373512337:/lp dump
+1792373529130:lp info
+1792373569639:plugins
+1792373778509:lp listgroups
+1792373818026:lp listgroups 2
+1792373831454:lp listgroups 3
+1792374001176:### 1. HERANÇA ENTRE OS GRUPOS (INHERITANCE)
+1792374001181:lp group neve parent add default
+1792374001186:lp group sino parent add neve
+1792374001192:lp group biscoito parent add sino
+1792374001197:lp group duende parent add biscoito
+1792374001203:lp group rena parent add duende
+1792374001208:lp group treno parent add rena
+1792374001213:lp group quebranozes parent add treno
+1792374001219:lp group estrela parent add quebranozes
+1792374001228:lp group noel parent add estrela
+1792374001232:lp group grinch parent add noel
+1792374001238:lp group yeti parent add grinch
+1792374001245:lp group krampus parent add yeti
+1792374001252:lp group vip_festivo parent add default
+1792374001263:lp group vip_nevasca parent add vip_festivo
+1792374001269:lp group vip_polar parent add vip_nevasca
+1792374001277:lp group ajudante parent add default
+1792374001283:lp group moderador parent add ajudante
+1792374001290:lp group administrador parent add moderador
+1792374001296:lp group gerente parent add administrador
+1792374001300:lp group dono parent add gerente
+1792374001313:### 2. GRUPO DEFAULT (JOGADORES INICIAIS)
+1792374001323:lp group default permission set essentialsc.spawn true
+1792374001331:lp group default permission set essentialsc.msg true
+1792374001338:lp group default permission set essentialsc.reply true
+1792374001344:lp group default permission set essentialsc.afk true
+1792374001350:lp group default permission set essentialsc.rules true
+1792374001356:lp group default permission set essentialsc.ping true
+1792374001368:lp group default permission set essentialsc.playtime true
+1792374001376:lp group default permission set essentialsc.uptime true
+1792374001383:lp group default permission set essentialsc.warp true
+1792374001389:lp group default permission set essentialsc.warps true
+1792374001396:lp group default permission set essentialsc.balance true
+1792374001403:lp group default permission set essentialsc.balancetop true
+1792374001416:lp group default permission set essentialsc.pay true
+1792374001422:lp group default permission set essentialsc.sell true
+1792374001428:lp group default permission set essentialsc.worth true
+1792374001434:lp group default permission set deluxemenus.open true
+1792374001440:lp group default permission set deluxemenus.gui.menu true
+1792374001446:lp group default permission set deluxemenus.gui.jogos true
+1792374001452:lp group default permission set deluxemenus.gui.principal true
+1792374001465:lp group default permission set fancynpcs.interact true
+1792374001471:lp group default permission set procosmetics.open true
+1792374001479:lp group default permission set procosmetics.particle_effects true
+1792374001485:lp group default permission set procosmetics.balloons true
+1792374001490:lp group default permission set awesomechat.chat true
+1792374001496:lp group default permission set multiverse.access.world true
+1792374001502:### 3. PROGRESSÃO DE RANKS (RANKUP)
+1792374001514:lp group neve permission set procosmetics.emotes true
+1792374001519:lp group sino permission set procosmetics.banners true
+1792374001526:lp group biscoito permission set essentialsc.hat true
+1792374001533:lp group duende permission set procosmetics.statuses true
+1792374001540:lp group rena permission set procosmetics.miniatures true
+1792374001546:lp group treno permission set awesomechat.color true
+1792374001553:lp group quebranozes permission set procosmetics.music true
+1792374001566:lp group estrela permission set procosmetics.pets true
+1792374001574:lp group noel permission set awesomechat.formatting true
+1792374001581:lp group grinch permission set procosmetics.arrow_effects true
+1792374001587:lp group yeti permission set procosmetics.death_effects true
+1792374001593:lp group krampus permission set procosmetics.* true
+1792374001597:### 4. GRUPOS VIPS
+1792374001603:lp group vip_festivo permission set essentialsc.fly true
+1792374001618:lp group vip_festivo permission set essentialsc.hat true
+1792374001625:lp group vip_festivo permission set awesomechat.color true
+1792374001630:lp group vip_festivo permission set awesomechat.formatting true
+1792374001636:lp group vip_festivo permission set procosmetics.pets true
+1792374001642:lp group vip_festivo permission set procosmetics.music true
+1792374001648:lp group vip_festivo permission set procosmetics.emotes true
+1792374001655:lp group vip_nevasca permission set essentialsc.feed true
+1792374001668:lp group vip_nevasca permission set awesomechat.magic true
+1792374001675:lp group vip_nevasca permission set procosmetics.statuses true
+1792374001681:lp group vip_nevasca permission set procosmetics.miniatures true
+1792374001688:lp group vip_nevasca permission set procosmetics.banners true
+1792374001694:lp group vip_polar permission set essentialsc.heal true
+1792374001700:lp group vip_polar permission set essentialsc.nick true
+1792374001708:lp group vip_polar permission set essentialsc.ptime true
+1792374001720:lp group vip_polar permission set essentialsc.pweather true
+1792374001726:lp group vip_polar permission set procosmetics.* true
+1792374001733:### 5. GRUPO AJUDANTE (SUPORTE E CHAT)
+1792374001738:lp group ajudante permission set essentialsc.mute true
+1792374001744:lp group ajudante permission set essentialsc.unmute true
+1792374001749:lp group ajudante permission set essentialsc.checkpunish true
+1792374001754:lp group ajudante permission set essentialsc.kick true
+1792374001767:lp group ajudante permission set essentialsc.teleport true
+1792374001772:lp group ajudante permission set essentialsc.tp true
+1792374001779:lp group ajudante permission set awesomechat.bypass.cooldown true
+1792374001785:lp group ajudante permission set awesomechat.bypass.slowmode true
+1792374001793:lp group ajudante permission set awesomechat.admin.clearchat true
+1792374001799:lp group ajudante permission set awesomechat.admin.mutechat true
+1792374001805:### 6. GRUPO MODERADOR (CONTROLE E FISCALIZAÇÃO)
+1792374001816:lp group moderador permission set essentialsc.ban true
+1792374001822:lp group moderador permission set essentialsc.unban true
+1792374001828:lp group moderador permission set essentialsc.banip true
+1792374001834:lp group moderador permission set essentialsc.unbanip true
+1792374001840:lp group moderador permission set essentialsc.banlist true
+1792374001845:lp group moderador permission set essentialsc.freeze true
+1792374001851:lp group moderador permission set essentialsc.unfreeze true
+1792374001864:lp group moderador permission set essentialsc.vanish true
+1792374001873:lp group moderador permission set essentialsc.invsee true
+1792374001878:lp group moderador permission set essentialsc.endersee true
+1792374001884:lp group moderador permission set essentialsc.clearinventory true
+1792374001890:lp group moderador permission set essentialsc.tphere true
+1792374001895:lp group moderador permission set essentialsc.tpoffline true
+1792374001900:lp group moderador permission set worldguard.region.info true
+1792374001907:lp group moderador permission set worldguard.region.list true
+1792374001920:### 7. GRUPO ADMINISTRADOR (GERENCIAMENTO TÉCNICO)
+1792374001925:lp group administrador permission set worldguard.* true
+1792374001930:lp group administrador permission set worldedit.* true
+1792374001935:lp group administrador permission set fancynpcs.* true
+1792374001940:lp group administrador permission set fancyholograms.* true
+1792374001946:lp group administrador permission set deluxemenus.admin true
+1792374001951:lp group administrador permission set tab.admin true
+1792374001962:lp group administrador permission set tab.bypass true
+1792374001971:lp group administrador permission set voidspawn.admin true
+1792374001976:lp group administrador permission set voidspawnplus.admin true
+1792374001982:lp group administrador permission set multiverse.core.* true
+1792374001987:lp group administrador permission set multiverse.access.* true
+1792374001992:lp group administrador permission set essentialsc.gamemode true
+1792374001998:lp group administrador permission set essentialsc.broadcast true
+1792374002004:lp group administrador permission set essentialsc.setwarp true
+1792374002017:lp group administrador permission set essentialsc.delwarp true
+1792374002022:lp group administrador permission set essentialsc.setspawn true
+1792374002028:lp group administrador permission set essentialsc.speed true
+1792374002032:lp group administrador permission set essentialsc.god true
+1792374002037:lp group administrador permission set essentialsc.smite true
+1792374002041:lp group administrador permission set essentialsc.sudo true
+1792374002046:lp group administrador permission set procosmetics.admin true
+1792374002051:### 8. GRUPO GERENTE (ADMINISTRAÇÃO AVANÇADA)
+1792374002058:lp group gerente permission set essentialsc.admin true
+1792374002069:lp group gerente permission set essentialsc.* true
+1792374002073:lp group gerente permission set papi.admin true
+1792374002079:lp group gerente permission set minimotd.admin true
+1792374002083:lp group gerente permission set awesomechat.admin true
+1792374002088:lp group gerente permission set luckperms.group.info true
+1792374002093:lp group gerente permission set luckperms.group.listmembers true
+1792374002097:lp group gerente permission set luckperms.user.info true
+1792374002101:lp group gerente permission set luckperms.verbose true
+1792374002108:lp group gerente permission set luckperms.tree true
+1792374002118:### 9. GRUPO DONO (ACESSO TOTAL)
+1792374006947:lp group dono permission set * true
+1792374101090:### ==============================================================================
+1792374101096:### 1. ESTRUTURA DE HERANÇA COMPLETA (INHERITANCE)
+1792374101101:### ==============================================================================
+1792374101104:lp group neve parent add default
+1792374101109:lp group sino parent add neve
+1792374101112:lp group biscoito parent add sino
+1792374101116:lp group duende parent add biscoito
+1792374101119:lp group rena parent add duende
+1792374101122:lp group treno parent add rena
+1792374101126:lp group quebranozes parent add treno
+1792374101130:lp group estrela parent add quebranozes
+1792374101133:lp group noel parent add estrela
+1792374101135:lp group grinch parent add noel
+1792374101139:lp group yeti parent add grinch
+1792374101141:lp group krampus parent add yeti
+1792374101146:lp group vip_festivo parent add default
+1792374101149:lp group vip_nevasca parent add vip_festivo
+1792374101153:lp group vip_polar parent add vip_nevasca
+1792374101159:lp group ajudante parent add default
+1792374101167:lp group moderador parent add ajudante
+1792374101173:lp group administrador parent add moderador
+1792374101178:lp group gerente parent add administrador
+1792374101181:lp group dono parent add gerente
+1792374101189:### ==============================================================================
+1792374101193:### 2. GRUPO DEFAULT (JOGADOR COMUM / INICIANTE)
+1792374101199:### ==============================================================================
+1792374101204:# EssentialsC - Comandos Básicos e Utilidades
+1792374101210:lp group default permission set essentialsc.spawn true
+1792374101214:lp group default permission set essentialsc.msg true
+1792374101220:lp group default permission set essentialsc.reply true
+1792374101224:lp group default permission set essentialsc.afk true
+1792374101230:lp group default permission set essentialsc.rules true
+1792374101237:lp group default permission set essentialsc.ping true
+1792374101241:lp group default permission set essentialsc.playtime true
+1792374101246:lp group default permission set essentialsc.uptime true
+1792374101252:lp group default permission set essentialsc.ignore true
+1792374101257:lp group default permission set essentialsc.itemid true
+1792374101263:lp group default permission set essentialsc.discord true
+1792374101269:lp group default permission set essentialsc.helpop true
+1792374101274:lp group default permission set essentialsc.recipe true
+1792374101279:# EssentialsC - Teleporte e Localização
+1792374101285:lp group default permission set essentialsc.warp true
+1792374101290:lp group default permission set essentialsc.warps true
+1792374101295:# EssentialsC - Economia e Comércio
+1792374101302:lp group default permission set essentialsc.balance true
+1792374101307:lp group default permission set essentialsc.balancetop true
+1792374101313:lp group default permission set essentialsc.pay true
+1792374101318:lp group default permission set essentialsc.sell true
+1792374101323:lp group default permission set essentialsc.worth true
+1792374101328:lp group default permission set essentialsc.quicksell true
+1792374101334:# DeluxeMenus - Abertura de Interfaces
+1792374101339:lp group default permission set deluxemenus.open true
+1792374101344:lp group default permission set deluxemenus.gui.menu true
+1792374101350:lp group default permission set deluxemenus.gui.jogos true
+1792374101355:lp group default permission set deluxemenus.gui.principal true
+1792374101362:lp group default permission set deluxemenus.gui.loja true
+1792374101367:lp group default permission set deluxemenus.gui.rankup true
+1792374101372:lp group default permission set deluxemenus.gui.recompensas true
+1792374101380:# FancyNPCS e FancyHolograms - Interação e Visualização
+1792374101385:lp group default permission set fancynpcs.interact true
+1792374101390:lp group default permission set fancyholograms.view true
+1792374101396:# AwesomeChat - Comunicação
+1792374101401:lp group default permission set awesomechat.chat true
+1792374101406:# Multiverse-Core - Acesso aos Mundos do Servidor
+1792374101413:lp group default permission set multiverse.access.world true
+1792374101419:# TAB - Alternância Pessoal da Barra Lateral
+1792374101425:lp group default permission set tab.scoreboard.toggle true
+1792374101431:# ProCosmetics - Funcionalidades Iniciais
+1792374101436:lp group default permission set procosmetics.open true
+1792374101442:lp group default permission set procosmetics.open.menu true
+1792374101450:lp group default permission set procosmetics.particle_effects true
+1792374101455:lp group default permission set procosmetics.balloons true
+1792374101464:### ==============================================================================
+1792374101470:### 3. RANKS DE PROGRESSÃO (RANKUP - NEVE ATÉ KRAMPUS)
+1792374101477:### ==============================================================================
+1792374101480:# Rank Neve
+1792374101484:lp group neve permission set procosmetics.emotes true
+1792374101489:# Rank Sino
+1792374101493:lp group sino permission set procosmetics.banners true
+1792374101498:# Rank Biscoito
+1792374101502:lp group biscoito permission set essentialsc.hat true
+1792374101508:# Rank Duende
+1792374101513:lp group duende permission set procosmetics.statuses true
+1792374101517:# Rank Rena
+1792374101523:lp group rena permission set procosmetics.miniatures true
+1792374101527:# Rank Trenó
+1792374101532:lp group treno permission set awesomechat.color true
+1792374101537:# Rank Quebra-Nozes
+1792374101542:lp group quebranozes permission set procosmetics.music true
+1792374101547:lp group quebranozes permission set essentialsc.trash true
+1792374101553:# Rank Estrela
+1792374101558:lp group estrela permission set procosmetics.pets true
+1792374101565:lp group estrela permission set essentialsc.workbench true
+1792374101570:# Rank Noel
+1792374101575:lp group noel permission set awesomechat.formatting true
+1792374101580:lp group noel permission set essentialsc.stonecutter true
+1792374101585:# Rank Grinch
+1792374101590:lp group grinch permission set procosmetics.arrow_effects true
+1792374101595:lp group grinch permission set essentialsc.anvil true
+1792374101600:# Rank Yeti
+1792374101605:lp group yeti permission set procosmetics.death_effects true
+1792374101610:lp group yeti permission set essentialsc.enderchest true
+1792374101618:# Rank Krampus (Rank Final - Quase todas utilidades cosméticas)
+1792374101623:lp group krampus permission set procosmetics.suits true
+1792374101628:lp group krampus permission set procosmetics.coins true
+1792374101634:lp group krampus permission set awesomechat.gradient true
+1792374101642:### ==============================================================================
+1792374101648:### 4. GRUPOS VIP (FESTIVO, NEVASCA E POLAR)
+1792374101655:### ==============================================================================
+1792374101658:# VIP Festivo
+1792374101665:lp group vip_festivo permission set essentialsc.fly true
+1792374101670:lp group vip_festivo permission set essentialsc.hat true
+1792374101675:lp group vip_festivo permission set essentialsc.workbench true
+1792374101680:lp group vip_festivo permission set essentialsc.trash true
+1792374101686:lp group vip_festivo permission set awesomechat.color true
+1792374101691:lp group vip_festivo permission set awesomechat.formatting true
+1792374101697:lp group vip_festivo permission set procosmetics.pets true
+1792374101702:lp group vip_festivo permission set procosmetics.music true
+1792374101707:lp group vip_festivo permission set procosmetics.emotes true
+1792374101715:lp group vip_festivo permission set procosmetics.banners true
+1792374101720:lp group vip_festivo permission set tab.staff false
+1792374101723:# VIP Nevasca
+1792374101729:lp group vip_nevasca permission set essentialsc.feed true
+1792374101734:lp group vip_nevasca permission set essentialsc.anvil true
+1792374101739:lp group vip_nevasca permission set essentialsc.enderchest true
+1792374101744:lp group vip_nevasca permission set awesomechat.magic true
+1792374101749:lp group vip_nevasca permission set awesomechat.gradient true
+1792374101754:lp group vip_nevasca permission set procosmetics.statuses true
+1792374101762:lp group vip_nevasca permission set procosmetics.miniatures true
+1792374101768:lp group vip_nevasca permission set procosmetics.suits true
+1792374101776:lp group vip_nevasca permission set procosmetics.arrow_effects true
+1792374101782:lp group vip_nevasca permission set procosmetics.death_effects true
+1792374101786:# VIP Polar (VIP Máximo)
+1792374101792:lp group vip_polar permission set essentialsc.heal true
+1792374101799:lp group vip_polar permission set essentialsc.nick true
+1792374101804:lp group vip_polar permission set essentialsc.nick.color true
+1792374101810:lp group vip_polar permission set essentialsc.ptime true
+1792374101815:lp group vip_polar permission set essentialsc.pweather true
+1792374101820:lp group vip_polar permission set essentialsc.condense true
+1792374101826:lp group vip_polar permission set awesomechat.rgb true
+1792374101831:lp group vip_polar permission set awesomechat.bypass.cooldown true
+1792374101837:lp group vip_polar permission set procosmetics.* true
+1792374101845:### ==============================================================================
+1792374101854:### 5. GRUPO AJUDANTE (SUPORTE, ATENDIMENTO E MODERAÇÃO DE CHAT)
+1792374101861:### ==============================================================================
+1792374101866:# Punições Básicas e Moderação de Conversa
+1792374101871:lp group ajudante permission set essentialsc.mute true
+1792374101876:lp group ajudante permission set essentialsc.unmute true
+1792374101881:lp group ajudante permission set essentialsc.checkpunish true
+1792374101887:lp group ajudante permission set essentialsc.kick true
+1792374101891:lp group ajudante permission set essentialsc.helpop.receive true
+1792374101896:# Teleporte para Atendimento
+1792374101902:lp group ajudante permission set essentialsc.teleport true
+1792374101907:lp group ajudante permission set essentialsc.tp true
+1792374101913:# AwesomeChat - Administração de Conversa
+1792374101920:lp group ajudante permission set awesomechat.bypass.cooldown true
+1792374101925:lp group ajudante permission set awesomechat.bypass.slowmode true
+1792374101932:lp group ajudante permission set awesomechat.admin.clearchat true
+1792374101937:lp group ajudante permission set awesomechat.admin.mutechat true
+1792374101942:# Visualização de Staff no TAB
+1792374101948:lp group ajudante permission set tab.staff true
+1792374101955:### ==============================================================================
+1792374101965:### 6. GRUPO MODERADOR (FISCALIZAÇÃO, INSPEÇÃO E PUNIÇÃO AVANÇADA)
+1792374101971:### ==============================================================================
+1792374101974:# Punições Severas
+1792374101980:lp group moderador permission set essentialsc.ban true
+1792374101985:lp group moderador permission set essentialsc.unban true
+1792374101990:lp group moderador permission set essentialsc.banip true
+1792374101996:lp group moderador permission set essentialsc.unbanip true
+1792374102001:lp group moderador permission set essentialsc.banlist true
+1792374102005:lp group moderador permission set essentialsc.freeze true
+1792374102012:lp group moderador permission set essentialsc.unfreeze true
+1792374102017:# Inspeção e Furtividade
+1792374102022:lp group moderador permission set essentialsc.vanish true
+1792374102028:lp group moderador permission set essentialsc.invsee true
+1792374102033:lp group moderador permission set essentialsc.endersee true
+1792374102038:lp group moderador permission set essentialsc.clearinventory true
+1792374102043:lp group moderador permission set essentialsc.seen true
+1792374102048:lp group moderador permission set essentialsc.realname true
+1792374102053:# Puxar Jogadores
+1792374102059:lp group moderador permission set essentialsc.tphere true
+1792374102065:lp group moderador permission set essentialsc.tpoffline true
+1792374102069:# AwesomeChat - Ignorar Bloqueios
+1792374102076:lp group moderador permission set awesomechat.bypass.filter true
+1792374102082:# WorldGuard - Auditoria e Verificação de Regiões
+1792374102087:lp group moderador permission set worldguard.region.info true
+1792374102092:lp group moderador permission set worldguard.region.info.member true
+1792374102097:lp group moderador permission set worldguard.region.info.own true
+1792374102104:lp group moderador permission set worldguard.region.list true
+1792374102111:lp group moderador permission set worldguard.region.list.own true
+1792374102120:### ==============================================================================
+1792374102126:### 7. GRUPO ADMINISTRADOR (GESTAO DO SERVIDOR E CONSTRUÇÃO)
+1792374102132:### ==============================================================================
+1792374102138:# Ferramentas de Construção e Edição
+1792374102142:lp group administrador permission set worldedit.* true
+1792374102147:lp group administrador permission set worldguard.* true
+1792374102151:# Gestão de Entidades e Displays
+1792374102156:lp group administrador permission set fancynpcs.* true
+1792374102160:lp group administrador permission set fancyholograms.* true
+1792374102166:# Menus, Scoreboard e Void
+1792374102172:lp group administrador permission set deluxemenus.admin true
+1792374102176:lp group administrador permission set tab.admin true
+1792374102182:lp group administrador permission set tab.bypass true
+1792374102187:lp group administrador permission set voidspawnplus.admin true
+1792374102191:lp group administrador permission set voidspawn.admin true
+1792374102194:# Mundos
+1792374102199:lp group administrador permission set multiverse.core.* true
+1792374102204:lp group administrador permission set multiverse.access.* true
+1792374102208:# EssentialsC - Comandos Administrativos
+1792374102214:lp group administrador permission set essentialsc.gamemode true
+1792374102220:lp group administrador permission set essentialsc.gamemode.survival true
+1792374102226:lp group administrador permission set essentialsc.gamemode.creative true
+1792374102231:lp group administrador permission set essentialsc.gamemode.spectator true
+1792374102237:lp group administrador permission set essentialsc.broadcast true
+1792374102241:lp group administrador permission set essentialsc.setwarp true
+1792374102246:lp group administrador permission set essentialsc.delwarp true
+1792374102251:lp group administrador permission set essentialsc.warpadmin true
+1792374102257:lp group administrador permission set essentialsc.setspawn true
+1792374102263:lp group administrador permission set essentialsc.speed true
+1792374102268:lp group administrador permission set essentialsc.speed.walk true
+1792374102273:lp group administrador permission set essentialsc.speed.fly true
+1792374102278:lp group administrador permission set essentialsc.god true
+1792374102283:lp group administrador permission set essentialsc.smite true
+1792374102288:lp group administrador permission set essentialsc.sudo true
+1792374102294:lp group administrador permission set essentialsc.top true
+1792374102298:lp group administrador permission set essentialsc.tphereall true
+1792374102303:lp group administrador permission set essentialsc.spawnentity true
+1792374102309:# ProCosmetics Administrativo
+1792374102314:lp group administrador permission set procosmetics.admin true
+1792374102319:lp group administrador permission set procosmetics.admin.give true
+1792374102326:lp group administrador permission set procosmetics.admin.reload true
+1792374102333:### ==============================================================================
+1792374102339:### 8. GRUPO GERENTE (ADMINISTRAÇÃO DE SISTEMAS E PERMISSÕES)
+1792374102346:### ==============================================================================
+1792374102349:# Controle Global de Mensagens, Chat e MOTD
+1792374102354:lp group gerente permission set awesomechat.admin true
+1792374102359:lp group gerente permission set minimotd.admin true
+1792374102364:# Controle de Placeholders
+1792374102369:lp group gerente permission set placeholderapi.admin true
+1792374102377:# Controle Completo do EssentialsC (Economia, Backups, Configurações)
+1792374102381:lp group gerente permission set essentialsc.* true
+1792374102385:lp group gerente permission set essentialsc.admin true
+1792374102393:# LuckPerms - Auditoria, Inspeção e Sincronização
+1792374102398:lp group gerente permission set luckperms.group.info true
+1792374102404:lp group gerente permission set luckperms.group.listmembers true
+1792374102409:lp group gerente permission set luckperms.user.info true
+1792374102413:lp group gerente permission set luckperms.verbose true
+1792374102417:lp group gerente permission set luckperms.tree true
+1792374102423:lp group gerente permission set luckperms.sync true
+1792374102430:### ==============================================================================
+1792374102434:### 9. GRUPO DONO (ACESSO IRRESTRITO)
+1792374102440:### ==============================================================================
+1792374109201:lp group dono permission set * true
+1792374291038:### ==============================================================================
+1792374291045:### 1. GRUPO DEFAULT & RANKS INICIAIS (UTILIDADES E INTERAÇÃO NO CHAT)
+1792374291051:### ==============================================================================
+1792374291055:# EssentialsC - Interação com Placas e Links no Chat
+1792374291060:lp group default permission set essentialsc.signs.use.warp true
+1792374291066:lp group default permission set essentialsc.signs.use.disposal true
+1792374291071:lp group default permission set essentialsc.signs.use.free true
+1792374291075:lp group default permission set essentialsc.chat.url true
+1792374291081:# AwesomeChat - Sistema de Mencionismo e Exibição de Itens
+1792374291085:lp group default permission set awesomechat.mention true
+1792374291089:lp group default permission set awesomechat.mention.receive true
+1792374291095:# ProCosmetics - Abertura de Baús Misteriosos no Saguão
+1792374291100:lp group default permission set procosmetics.treasure_chests.open true
+1792374291104:# TAB - Alternância Pessoal da Lista de Jogadores
+1792374291110:lp group default permission set tab.tablist.toggle true
+1792374291115:lp group default permission set tab.nametag.toggle true
+1792374291123:### ==============================================================================
+1792374291129:### 2. RANKS DE PROGRESSÃO (RANKUP - NOVEL A KRAMPUS)
+1792374291135:### ==============================================================================
+1792374291138:# Rank Neve
+1792374291143:lp group neve permission set awesomechat.showitem true
+1792374291147:# Rank Sino
+1792374291152:lp group sino permission set essentialsc.signs.use.kit true
+1792374291156:# Rank Biscoito
+1792374291162:lp group biscoito permission set awesomechat.bypass.caps true
+1792374291166:# Rank Duende
+1792374291171:lp group duende permission set essentialsc.chat.question true
+1792374291178:# Rank Rena
+1792374291183:lp group rena permission set essentialsc.chat.shout true
+1792374291187:# Rank Trenó
+1792374291194:lp group treno permission set essentialsc.afk.autoexempt false
+1792374291198:# Rank Quebra-Nozes
+1792374291203:lp group quebranozes permission set essentialsc.near true
+1792374291208:# Rank Estrela
+1792374291213:lp group estrela permission set essentialsc.chat.color true
+1792374291217:# Rank Noel
+1792374291223:lp group noel permission set essentialsc.chat.format true
+1792374291226:# Rank Grinch
+1792374291231:lp group grinch permission set awesomechat.item true
+1792374291234:# Rank Yeti
+1792374291240:lp group yeti permission set essentialsc.fly.safelogin true
+1792374291245:# Rank Krampus
+1792374291250:lp group krampus permission set procosmetics.bypass.cooldown true
+1792374291255:lp group krampus permission set essentialsc.chat.magic true
+1792374291262:### ==============================================================================
+1792374291267:### 3. GRUPOS VIP (ISENÇÕES, BYPASS DE COOLDOWN E EFEITOS)
+1792374291274:### ==============================================================================
+1792374291276:# VIP Festivo
+1792374291281:lp group vip_festivo permission set essentialsc.afk.kickexempt true
+1792374291287:lp group vip_festivo permission set essentialsc.spawn.admin true
+1792374291294:lp group vip_festivo permission set essentialsc.warp.bypass.cooldown true
+1792374291298:lp group vip_festivo permission set awesomechat.showitem true
+1792374291304:lp group vip_festivo permission set awesomechat.bypass.caps true
+1792374291310:lp group vip_festivo permission set essentialsc.chat.color true
+1792374291315:lp group vip_festivo permission set essentialsc.chat.format true
+1792374291320:# VIP Nevasca
+1792374291325:lp group vip_nevasca permission set essentialsc.afk.autoexempt true
+1792374291330:lp group vip_nevasca permission set essentialsc.worth.bypass-cooldown true
+1792374291338:lp group vip_nevasca permission set essentialsc.near true
+1792374291343:lp group vip_nevasca permission set essentialsc.fly.safelogin true
+1792374291349:lp group vip_nevasca permission set procosmetics.bypass.cooldown true
+1792374291354:lp group vip_nevasca permission set awesomechat.item true
+1792374291358:# VIP Polar
+1792374291365:lp group vip_polar permission set essentialsc.teleport.cooldown.bypass true
+1792374291371:lp group vip_polar permission set essentialsc.teleport.timer.bypass true
+1792374291376:lp group vip_polar permission set essentialsc.chat.magic true
+1792374291381:lp group vip_polar permission set procosmetics.bypass.cost true
+1792374291387:lp group vip_polar permission set procosmetics.treasure_chests.bypass true
+1792374291393:lp group vip_polar permission set fancynpcs.bypass.cooldown true
+1792374291400:### ==============================================================================
+1792374291406:### 4. GRUPO AJUDANTE (SUPORTE, AUDITORIA BÁSICA E ESPIÃO DE CHAT)
+1792374291414:### ==============================================================================
+1792374291419:# EssentialsC - Notificações e Mensagens Internas
+1792374291424:lp group ajudante permission set essentialsc.socialspy true
+1792374291429:lp group ajudante permission set essentialsc.near true
+1792374291433:lp group ajudante permission set essentialsc.near.max true
+1792374291438:lp group ajudante permission set essentialsc.afk.kickexempt true
+1792374291445:# AwesomeChat - Espionagem de Conversas Privadas e Canais
+1792374291449:lp group ajudante permission set awesomechat.spy true
+1792374291454:lp group ajudante permission set awesomechat.admin.spy true
+1792374291461:# LuckPerms - Auditoria Rápida de Jogadores no Atendimento
+1792374291466:lp group ajudante permission set luckperms.user.permission.check true
+1792374291471:lp group ajudante permission set luckperms.user.parent.info true
+1792374291480:### ==============================================================================
+1792374291486:### 5. GRUPO MODERADOR (INVESTIGAÇÃO DE GRIEF E INSPEÇÃO AVANÇADA)
+1792374291495:### ==============================================================================
+1792374291500:# EssentialsC - Edição de Inventários e Furtividade
+1792374291507:lp group moderador permission set essentialsc.invsee.modify true
+1792374291512:lp group moderador permission set essentialsc.enderchest.modify true
+1792374291518:lp group moderador permission set essentialsc.vanish.see true
+1792374291524:lp group moderador permission set essentialsc.vanish.interact true
+1792374291530:lp group moderador permission set essentialsc.teleport.cooldown.bypass true
+1792374291535:lp group moderador permission set essentialsc.teleport.timer.bypass true
+1792374291543:# WorldGuard - Varinha de Inspeção e Teleporte de Regiões
+1792374291547:lp group moderador permission set worldguard.region.wand true
+1792374291551:lp group moderador permission set worldguard.region.select.* true
+1792374291559:lp group moderador permission set worldguard.region.teleport.* true
+1792374291565:# WorldEdit - Auditoria de Terrenos e Ferramenta de Seleção
+1792374291571:lp group moderador permission set worldedit.wand true
+1792374291576:lp group moderador permission set worldedit.selection.* true
+1792374291581:lp group moderador permission set worldedit.analysis.distr true
+1792374291588:# Multiverse-Core - Navegação Entre Mundos
+1792374291593:lp group moderador permission set multiverse.teleport.self.w true
+1792374291598:lp group moderador permission set multiverse.list.worlds true
+1792374291603:lp group moderador permission set multiverse.core.info true
+1792374291610:### ==============================================================================
+1792374291618:### 6. GRUPO ADMINISTRADOR (BYPASS DE PROTEÇÃO E MANUTENÇÃO)
+1792374291624:### ==============================================================================
+1792374291630:# WorldGuard & VoidSpawnPlus - Bypass de Construção e Queda no Vazio
+1792374291636:lp group administrador permission set worldguard.region.bypass.* true
+1792374291641:lp group administrador permission set voidspawnplus.bypass true
+1792374291646:lp group administrador permission set voidspawn.bypass true
+1792374291652:# EssentialsC - Criação de Placas Oficiais e Bypass Geral
+1792374291658:lp group administrador permission set essentialsc.signs.create.* true
+1792374291665:lp group administrador permission set essentialsc.socialspy.bypass true
+1792374291671:lp group administrador permission set essentialsc.fly.safelogin true
+1792374291676:lp group administrador permission set essentialsc.broadcast.world true
+1792374291684:# Multiverse-Core - Gestão de Spawn e Teleporte de Outros Jogadores
+1792374291690:lp group administrador permission set multiverse.teleport.other.w true
+1792374291694:lp group administrador permission set multiverse.core.spawn.self true
+1792374291699:lp group administrador permission set multiverse.core.spawn.other true
+1792374291704:# FancyNPCS & FancyHolograms - Limites de Criação e Comandos
+1792374291710:lp group administrador permission set fancynpcs.max-npcs.10 true
+1792374291715:lp group administrador permission set fancynpcs.bypass.cooldown true
+1792374291721:lp group administrador permission set fancyholograms.admin true
+1792374291727:# MiniMOTD & TAB - Gestão de Menus e Bypass
+1792374291732:lp group administrador permission set minimotd.command.reload true
+1792374291737:lp group administrador permission set tab.bypass.cooldown true
+1792374291743:lp group administrador permission set tab.bypass.ping true
+1792374291750:### ==============================================================================
+1792374291755:### 7. GRUPO GERENTE (LOGS, RECARGAS E RECURSOS DO SISTEMA)
+1792374291762:### ==============================================================================
+1792374291768:# LuckPerms - Notificação de Mudança de Cargos em Tempo Real
+1792374291772:lp group gerente permission set luckperms.log.notify true
+1792374291780:# AwesomeChat & DeluxeMenus - Recarregamento Rápido em Tempo Real
+1792374291784:lp group gerente permission set awesomechat.admin.reload true
+1792374291789:lp group gerente permission set deluxemenus.admin.reload true
+1792374291794:lp group gerente permission set deluxemenus.bypass true
+1792374291801:# ProCosmetics - Gerenciamento de Economia e Inventários
+1792374291805:lp group gerente permission set procosmetics.coins.give true
+1792374291812:lp group gerente permission set procosmetics.coins.take true
+1792374293463:lp group gerente permission set procosmetics.bypass.cost true
+1792374297554:lp editor
+1792374476510:stop
+1792374557484:lp group default permission set minecraft.command.* false
+1792374557496:lp group default permission set bukkit.command.* false
+1792374557505:lp group default permission set spigot.command.* false
+1792374557528:lp group default permission set paper.command.* falselp group default permission set minecraft.command.* false
+1792374557538:lp group default permission set bukkit.command.* false
+1792374557548:lp group default permission set spigot.command.* false
+1792374559080:lp group default permission set paper.command.* false
+1792374564213:lp group default permission set bukkit.command.plugins false
+1792374564221:lp group default permission set bukkit.command.version false
+1792374564229:lp group default permission set bukkit.command.about false
+1792374565440:lp group default permission set bukkit.command.help false
+1792374591615:lp group default permission set bukkit.command.plugins false
+1792374591621:lp group default permission set bukkit.command.version false
+1792374591628:lp group default permission set bukkit.command.about false
+1792374593375:lp group default permission set bukkit.command.help false
+1792374701429:stop

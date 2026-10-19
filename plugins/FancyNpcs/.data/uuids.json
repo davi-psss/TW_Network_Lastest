@@ -1,0 +1,20 @@
+[
+  {
+    "username": "SantaClaus",
+    "uuid": "5d1e680a-18c7-4ec4-8bb6-ff2f2a842dec",
+    "lastUpdated": 1792367271420,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "Notch",
+    "uuid": "069a79f4-44e9-4726-a5be-fca90e38aaf5",
+    "lastUpdated": 1792367125128,
+    "timeToLive": 2592000000
+  },
+  {
+    "username": "nielspp",
+    "uuid": "149c306f-6ed2-47de-8740-1c107bc995e0",
+    "lastUpdated": 1792367335702,
+    "timeToLive": 2592000000
+  }
+]

@@ -1,0 +1,31 @@
+# VoidSpawn Configuration
+fade-effect-enabled: true
+prevent-fall-damage: true
+
+teleport-sound: ENTITY_ENDERMAN_TELEPORT
+sound-volume: 1.0
+sound-pitch: 1.0
+
+# 1 segundo de cooldown é ideal para lobbies, evitando loops sem travar o jogador
+teleport-cooldown: 1
+
+# Mensagens traduzidas
+teleport-message: '&aVocê caiu no void e foi resgatado para o spawn!'
+spawn-not-set-message: '&c[Aviso] Ponto de spawn não definido para este mundo! Usando o spawn padrão.'
+spawn-set-message: '&aPonto de resgate definido com sucesso para o mundo &e{world}&a!'
+cooldown-message: '&cAguarde um momento antes de ser teleportado novamente!'
+reload-message: '&aConfiguração recarregada com sucesso!'
+
+# Configuração de mundos
+# Dica: Em lobbies flutuantes, subir o y-level para 0 ou logo abaixo do piso
+# faz o jogador voltar imediatamente sem precisar cair até o limite do mapa (-64).
+worlds:
+  world:
+    y-level: 0
+    enabled: true
+  world_nether:
+    y-level: 0
+    enabled: false
+  world_the_end:
+    y-level: 0
+    enabled: false

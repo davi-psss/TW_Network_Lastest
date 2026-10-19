@@ -1,0 +1,194 @@
+items:
+  coal:
+    material: COAL
+    name: "<color:#2F2F2F>Coal"
+    buy-price: 20
+    sell-price: 4
+    slot: 10
+    page: 1
+
+  char_coal:
+    material: CHARCOAL
+    name: "<color:#2F2F2F>Char Coal"
+    buy-price: 25
+    sell-price: 6
+    slot: 11
+    page: 1
+
+  coal_block:
+    material: COAL_BLOCK
+    name: "<#2F2F2F>Coal Block"
+    buy-price: 180
+    sell-price: 45
+    slot: 12
+    page: 1
+
+  copper:
+    material: RAW_COPPER
+    name: "<color:#B87333>Copper"
+    buy-price: 230
+    sell-price: 75
+    slot: 19
+    page: 1
+
+  copper_ingot:
+    material: COPPER_INGOT
+    name: "<color:#B87333>Copper Ingot"
+    buy-price: 250
+    sell-price: 80
+    slot: 20
+    page: 1
+
+  copper_block:
+    material: COPPER_BLOCK
+    name: "<color:#B87333>Copper Block"
+    buy-price: 2250
+    sell-price: 720
+    slot: 21
+    page: 1
+
+  raw_iron:
+    material: RAW_IRON
+    name: "<color:#D2691E>Raw Iron"
+    buy-price: 200
+    sell-price: 65
+    slot: 28
+    page: 1
+
+  iron_ingot:
+    material: IRON_INGOT
+    name: "<color:#C0C0C0>Iron Ingot"
+    buy-price: 300
+    sell-price: 100
+    slot: 29
+    page: 1
+
+  iron_block:
+    material: IRON_BLOCK
+    name: "<color:#C0C0C0>Iron Block"
+    buy-price: 2700
+    sell-price: 900
+    slot: 30
+    page: 1
+
+  raw_gold:
+    material: RAW_GOLD
+    name: "<color:#FFD700>Raw Gold"
+    buy-price: 550
+    sell-price: 180
+    slot: 37
+    page: 1
+
+  gold_ingot:
+    material: GOLD_INGOT
+    name: "<color:#FFD700>Gold Ingot"
+    buy-price: 800
+    sell-price: 260
+    slot: 38
+    page: 1
+
+  gold_block:
+    material: GOLD_BLOCK
+    name: "<color:#FFD700>Gold Block"
+    buy-price: 7200
+    sell-price: 2340
+    slot: 39
+    page: 1
+
+  emerald:
+    material: EMERALD
+    name: "<#3DE800>Emerald"
+    buy-price: 200
+    sell-price: 35
+    slot: 14
+    page: 1
+
+  emerald_block:
+    material: EMERALD_BLOCK
+    name: "<#3DE800>Emerald Block"
+    buy-price: 1800
+    sell-price: 315
+    slot: 23
+    page: 1
+
+  diamond:
+    material: DIAMOND
+    name: "<#17E7FF>Diamond"
+    buy-price: 1200
+    sell-price: 340
+    slot: 15
+    page: 1
+
+  diamond_block:
+    material: DIAMOND_BLOCK
+    name: "<#17E7FF>Diamond Block"
+    buy-price: 10800
+    sell-price: 3060
+    slot: 24
+    page: 1
+
+  netherite:
+    material: NETHERITE_INGOT
+    name: "<#292323>Netherite Ingot"
+    buy-price: 3450
+    sell-price: 1080
+    slot: 16
+    page: 1
+
+  netherite_block:
+    material: NETHERITE_BLOCK
+    name: "<#292323>Netherite Block"
+    buy-price: 31050
+    sell-price: 9720
+    slot: 25
+    page: 1
+
+  quartz:
+    material: QUARTZ
+    name: "<#D4D4D4>Quartz"
+    buy-price: 220
+    sell-price: 60
+    slot: 32
+    page: 1
+
+  quartz_block:
+    material: QUARTZ_BLOCK
+    name: "<#D4D4D4>Quartz Block"
+    buy-price: 1980
+    sell-price: 540
+    slot: 41
+    page: 1
+
+  amethyst:
+    material: AMETHYST_SHARD
+    name: "<#D600CF>Amethyst Shard"
+    buy-price: 180
+    sell-price: 25
+    slot: 33
+    page: 1
+
+  amethyst_block:
+    material: AMETHYST_BLOCK
+    name: "<#D600CF>Amethyst Block"
+    buy-price: 1620
+    sell-price: 225
+    slot: 42
+    page: 1
+
+  lapis:
+    material: LAPIS_LAZULI
+    name: "<#214BFF>Lapis Lazuli"
+    buy-price: 230
+    sell-price: 20
+    slot: 34
+    page: 1
+
+  lapis_block:
+    material: LAPIS_BLOCK
+    name: "<#214BFF>Lapis Block"
+    buy-price: 2070
+    sell-price: 180
+    slot: 43
+    page: 1
+
+

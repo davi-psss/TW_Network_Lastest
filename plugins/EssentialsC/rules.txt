@@ -1,0 +1,7 @@
+<#FFF200><b>==== Server Rules =====</b>
+<#FFF200>1.</#FFF200> <white>Be respectful to all players</white>
+<#FFF200>2.</#FFF200> <white>No griefing or stealing</white>
+<#FFF200>3.</#FFF200> <white>No cheating or hacked clients</white>
+<#FFF200>4.</#FFF200> <white>No spamming or advertising</white>
+<#FFF200>5.</#FFF200> <white>Have fun!</white>
+<#FFF200><b>======================</#FFF200>

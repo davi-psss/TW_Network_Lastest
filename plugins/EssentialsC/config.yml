@@ -1,0 +1,366 @@
+# EssentialsC — config.yml (Configuração para Servidor Lobby)
+config-version: 27
+
+debug: false
+default-language: en_US
+fallback-language: en_US
+strip-colors-from-console: true
+
+help:
+  colors:
+    label: <color:#FFF200>
+    header: <color:#FFF200>
+    body: <gray>
+    divider: <dark_gray>
+    arg-required: <white>
+    arg-optional: <gray>
+
+backup:
+  enabled: true
+  keep-last: 5
+  on-shutdown: true
+
+fly:
+  persistent: false
+  restore-on-join: false
+  disable-on-join: true
+
+enchant:
+  allow-unsafe: false
+
+broadcast:
+  prefix: <#FF5555>[Aviso] <white>
+
+trash:
+  enabled: false
+  log-disposals: false
+  blacklisted-materials:
+  - BEACON
+  - DRAGON_EGG
+  - NETHER_STAR
+
+heal:
+  feed-player: true
+  clear-negative-effects: true
+
+motd:
+  enabled: false # Pode manter desativado para não poluir o chat na entrada
+  lines:
+  - <gray>You can customize this message in config.yml.
+  - <gray>Set <white>motd.enabled</white><gray> to <red>false</red><gray> to disable
+    it completely.
+
+discord:
+  message:
+  - <#5865F2><bold>DISCORD</bold> <#444444>┃ <white>Entre na nossa comunidade</white>
+  - ''
+  - <#5865F2>➜ <click:open_url:'https://discord.gg/seulink'><hover:show_text:'<gray>Clique
+    para abrir o link'><white><underlined>discord.gg/seulink</underlined></white></hover></click>
+
+luckperms:
+  chat-formatting: true
+  chat-format: <DISPLAYNAME> &7» &f<MESSAGE>
+  tab-formatting: true
+
+discordsrv:
+  enabled: false
+  channels:
+    punishments:
+      name: punishments
+    shop:
+      name: shop
+  events:
+    ban:
+      enabled: true
+      color: '#E74C3C'
+    kick:
+      enabled: true
+      color: '#F39C12'
+    mute:
+      enabled: true
+      color: '#9B59B6'
+    kit:
+      enabled: true
+      color: '#3498DB'
+    home:
+      enabled: true
+      color: '#2ECC71'
+    home_delete:
+      enabled: true
+      color: '#E74C3C'
+    banip:
+      enabled: true
+      color: '#E74C3C'
+    shop_buy:
+      enabled: true
+      color: '#34BE49'
+    shop_sell:
+      enabled: true
+      color: '#F1C40F'
+    sell_gui:
+      enabled: true
+      color: '#E67E22'
+  show-avatar: true
+  avatar-url: https://crafthead.net/helm/{uuid}
+
+# Economia desativada no lobby para poupar banco de dados
+economy:
+  enabled: true
+  starting-balance: '0.0'
+  currency-space: false
+  currency-before-amount: true
+  currency:
+    singular: $
+    plural: $
+  minimum-transaction: '0.01'
+  max-balance: -1
+  format: '#,##0.00'
+
+chat:
+  enabled: true
+  link-removal-message: <#F54927>[link bloqueado]
+  link-whitelist:
+  - youtube.com
+  - twitch.tv
+  slow-mode:
+    enabled: true
+    delay-seconds: 2
+  capslock-threshold: 0.7
+  mention:
+    enabled: true
+    format: <#4BA8DE>@<player><reset>
+
+playerlist:
+  show-luckperms-prefix: true
+
+# Desativado em lobby
+rtp:
+  enabled: false
+  register-command: false
+  cooldown: 60
+  warmup: 5
+  cancel-on-movement: true
+  particles: true
+  max-attempts: 10
+  min-y: 35
+  max-y: 122
+  use-world-border: true
+  global:
+    min-radius: 1000
+    max-radius: 10000
+    blocked-biomes:
+    - ocean
+    - deep_ocean
+    - river
+
+# Desativado em lobby (evita pedidos de tp desnecessários)
+tpa:
+  enabled: false
+  cooldown: 60
+  warmup: 3
+  timeout: 60
+  max-pending: 5
+  max-outgoing: 1
+  deny-movement: true
+  particles: true
+  sounds: true
+  blocked-worlds: []
+
+# Desativado em lobby
+home:
+  enabled: false
+  default-name: home
+  default-teleport-name: home
+  max-homes: 3
+  cooldown: 5
+  warmup: 3
+  cancel-on-movement: true
+  particles: true
+  sounds: true
+  bed-counts-in-limit: true
+  blocked-worlds:
+  - world_example_blocked
+
+# Desativado em lobby
+kits:
+  enabled: true
+  mode: gui
+  sounds: true
+  strip-item-names: true
+
+# Configuração essencial de Spawn no Lobby
+spawn:
+  enabled: true
+  cooldown: 0
+  warmup: 0
+  teleport-on-first-join: true
+  particles: true
+  sounds: true
+  cancel-on-movement: false
+  teleport-on-respawn: true
+  allow-beds-to-override: false
+
+join-leave-messages:
+  enabled: true
+  join: <dark_gray>[<#70F40B>+<dark_gray>] <#A3F863><player> entrou no saguão.
+  leave: <dark_gray>[<#F52727>-<dark_gray>] <#FA8F8F><player> saiu.
+  hide-vanished: true
+  first-join: <#F5CF27><b>Bem-vindo!<reset> <#F8DC63><player> entrou pela primeira
+    vez!
+
+back:
+  enabled: false
+  warmup: 3
+  cooldown: 5
+  particles: true
+  sounds: true
+  cancel-on-movement: true
+
+# Scoreboard nativo desativado (para não conflitar se você for usar outro plugin de scoreboard dedicado)
+# Caso QUEIRA a scoreboard do EssentialsC, apenas mude enabled para true
+scoreboard:
+  enabled: false
+  persistent: true
+  update-interval: 20
+  title: <#279FF5><b>LOBBY PRINCIPAL
+  lines:
+  - ''
+  - <#279FF5><b>%player_name%:<reset>
+  - '<#279FF5><b>|<reset> <#9CD6FF>Cargo: <white>%luckperms_prefix%'
+  - '<#279FF5><b>|<reset> <#9CD6FF>Ping: <white>%player_ping%<#9CD6FF>ms'
+  - ''
+  - '<#279FF5><b>|<reset> <#9CD6FF>Online: <white>%server_online%'
+
+rename:
+  blacklist-enabled: true
+  blacklist-words: []
+  max-length: 50
+  min-length: 1
+  normalize-enabled: true
+  strip-colors-for-check: true
+
+spawnentity:
+  max-amount: 5
+
+vanish:
+  enabled: true
+  hide-from-tab: true
+  give-night-vision: true
+  prevent-mob-target: true
+  disable-collisions: true
+  hide-from-server-list: true
+
+nickname:
+  enabled: false
+  min-length: 3
+  max-length: 16
+  blacklist-enabled: true
+  blacklist-words: []
+  normalize-enabled: true
+  unique: true
+  update-tab: true
+  indicator: '~'
+  show-realname-on-hover: true
+  hover-format: '<gray>Real name: <white><realname>'
+  click-suggest-msg: true
+
+shop:
+  enabled: true
+  strip-item-names: false
+  block-buy-when-inventory-full: true
+  log-transactions: true
+  transaction-log:
+    file: true
+    console: false
+    discord-min-total: 0
+  currency:
+    singular: $
+    plural: $
+
+sell:
+  enabled: true
+  gui:
+    title: <dark_gray>Sell Items</dark_gray>
+    size: 54
+    border-material: GRAY_STAINED_GLASS_PANE
+    fill-empty: true
+    fill-material: BLACK_STAINED_GLASS_PANE
+    sounds: true
+
+hat:
+  blacklist-enabled: true
+  blacklist-items:
+  - bedrock
+  - barrier
+  - command_block
+  allow-blocks: false
+  require-lore: false
+  require-custom-name: false
+
+auction-house:
+  enabled: false
+  max-auctions-per-player: 5
+  duration-hours: 48
+  min-price: '1.00'
+  max-price: '5000000'
+  allow-enchanted-books: false
+  blacklisted-materials:
+  - DRAGON_EGG
+  - BEACON
+  - NETHER_STAR
+  blacklisted-custom-items: []
+  notify-on-sale: true
+  confirmation-gui: true
+
+warp:
+  enabled: true
+  cooldown: 0
+  warmup: 0
+  cancel-on-movement: false
+  particles: true
+  sounds: true
+  blocked-worlds: []
+  group-by-category: true
+  max-name-length: 16
+  limit-per-player:
+    enabled: false
+    max: 5
+
+afk:
+  enabled: true
+  timeout-seconds: 300
+  kick-timeout-seconds: -1
+  tab-placeholder-enabled: true
+  tab-placeholder: '<color:#FF6B6B>[AFK]</color> '
+  broadcast-enabled: false
+  title-enabled: false
+  prevent-damage: true
+  prevent-mob-target: true
+  prevent-pickup: true
+  freeze-player: false
+  blocked-commands: []
+  list-show-location: false
+  list-show-world: false
+  list-sort-by: time
+  title: <color:#FF6B6B>You are now AFK</color>
+  subtitle: <color:#FFE66D>Move to return</color>
+
+punishments:
+  enabled: true
+
+rules:
+  enabled: true
+
+freeze:
+  allow-look: true
+  block-teleport: true
+  block-drop-pickup: true
+  block-inventory: true
+  block-break-place: true
+  block-interact: true
+  persist-on-reconnect: true
+  allowed-commands:
+  - msg
+  - reply
+  - r
+  - help

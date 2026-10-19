@@ -1,0 +1,91 @@
+title: <dark_gray>Shop
+size: 54
+items:
+  # Decorations are purely visual items. Mark any item with 'decoration: true'
+  # and define material, name, lore, glow, skull-texture and slot/slots freely.
+  # Example:
+  # decoration_example:
+  #   material: SUNFLOWER
+  #   name: "Fancy Decoration"
+  #   lore:
+  #     - "<gray>This item is pure decoration"
+  #   slot: 4
+  #   glow: true
+  #   decoration: true
+  #   hide-attributes: true
+
+  
+  
+  close:
+    material: NETHER_WART
+    name: lang:shop.gui.main.close
+    slot: 50
+    action: close
+  balance:
+    material: EMERALD
+    name: lang:shop.gui.main.balance-name
+    slot: 48
+  
+  left_1:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    decoration: true
+  
+  left_2:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 1
+    decoration: true
+  
+  left_3:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 9
+    decoration: true
+  
+  right_1:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 7
+    decoration: true
+  
+  right_2:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 8
+    decoration: true
+  
+  right_3:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 17
+    decoration: true
+  
+  green_bottom_0:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 36
+    decoration: true
+  
+  green_bottom_1:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 45
+    decoration: true
+  
+  green_bottom_2:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 46
+    decoration: true
+  
+  white_bottom:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 44
+    decoration: true
+  
+  white_bottom_0:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 53
+    decoration: true
+  
+  white_bottom_3231:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 52
+    decoration: true
+
+
+
+

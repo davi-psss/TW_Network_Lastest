@@ -12,7 +12,7 @@ set "JAR_NAME=purpur.jar"
 set "RAM=4G"
 
 :: Caminho do Java (use "java" se já estiver no PATH ou aponte para o java.exe desejado, ex: "C:\...\bin\java.exe")
-set "JAVA_CMD=C:\Program Files\Eclipse Adoptium\jdk-25.0.4.101-hotspot\bin\java.exe"
+set "JAVA_CMD=C:\Program Files\Java\jdk-25\bin\java.exe"
 
 :: ====================================================================
 :: LOOP DE INICIALIZAÇÃO E AUTO-RESTART

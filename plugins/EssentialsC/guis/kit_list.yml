@@ -1,0 +1,62 @@
+title: lang:kit.gui.title
+size: 27
+
+items:
+  kit-slots:
+    material: AIR
+    slots:
+    - 10
+    - 13
+    - 16
+  
+  
+  
+  border:
+    material: GRAY_STAINED_GLASS_PANE
+    name: ' '
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 11
+    - 12
+    - 14
+    - 15
+    - 17
+    - 18
+    - 19
+    - 20
+    - 22
+    - 24
+    - 25
+    - 26
+    
+    hide-attributes: true
+  
+  nav-prev:
+    material: SPECTRAL_ARROW
+    name: lang:kit.gui.item.nav.prev.name
+    slot: 21
+    action: page_prev
+    hide-attributes: true
+  
+  nav-next:
+    material: SPECTRAL_ARROW
+    name: lang:kit.gui.item.nav.next.name
+    slot: 23
+    action: page_next
+    hide-attributes: true
+  
+  empty:
+    material: NETHER_WART
+    name: lang:kit.gui.item.empty.name
+    lore:
+    - lang:kit.gui.item.empty.lore1
+    hide-attributes: true

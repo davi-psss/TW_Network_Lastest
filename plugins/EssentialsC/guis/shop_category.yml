@@ -1,0 +1,67 @@
+title: <dark_gray><category>
+size: 54
+items:
+  # Decorations are purely visual items. Mark any item with 'decoration: true'
+  # and define material, name, lore, glow, skull-texture and slot/slots freely.
+  # Example:
+  # decoration_example:
+  #   material: SUNFLOWER
+  #   name: "Fancy Decoration"
+  #   lore:
+  #     - "<gray>This item is pure decoration"
+  #   slot: 4
+  #   glow: true
+  #   decoration: true
+  #   hide-attributes: true
+
+  prev-page:
+    material: SPECTRAL_ARROW
+    name: lang:shop.gui.category.prev-page
+    slot: 45
+  next-page:
+    material: SPECTRAL_ARROW
+    name: lang:shop.gui.category.next-page
+    slot: 53
+  page-indicator:
+    material: WRITABLE_BOOK
+    name: <color:#F5C827>Page <current>/<max>
+    slot: 4
+  back:
+    material: EXPERIENCE_BOTTLE
+    name: lang:shop.gui.category.back
+    slot: 50
+    action: back
+  balance:
+    material: EMERALD
+    name: lang:shop.gui.main.balance-name
+    slot: 48
+  
+  left_1:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    decoration: true
+  
+  left_2:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 1
+    decoration: true
+  
+  left_3:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 9
+    decoration: true
+  
+  right_1:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 7
+    decoration: true
+  
+  right_2:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 8
+    decoration: true
+  
+  right_3:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 17
+    decoration: true

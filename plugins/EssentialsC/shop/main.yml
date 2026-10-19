@@ -1,0 +1,93 @@
+title: <dark_gray><b>Server Shop</b></dark_gray>
+size: 54
+fill-empty: true
+fill-material: BLACK_STAINED_GLASS_PANE
+
+categories:
+  farming:
+    name: <b><#ddbb65>Farming
+    material: WHEAT
+    slot: 12
+    file: farming.yml
+    lore:
+      - <color:#A0A0A0>Crops, food, and farming drops
+
+  mining:
+    name: <b><#e9b114>Mining
+    material: GOLDEN_PICKAXE
+    slot: 14
+    file: mining.yml
+    lore:
+      - <color:#A0A0A0>Ores, gems, and minerals
+
+  combat:
+    name: <b><#bebebe>Combat
+    material: IRON_SWORD
+    slot: 22
+    file: combat.yml
+    lore:
+      - <color:#A0A0A0>Weapons, armor, and PvP gear
+
+  spawners:
+    name: <b><#304959>Spawners
+    material: SPAWNER
+    slot: 23
+    file: spawners.yml
+    lore:
+      - <color:#A0A0A0>Mob spawners and eggs
+
+  enchanted_books:
+    name: <b><#d01156>Enchanted Books
+    material: ENCHANTED_BOOK
+    slot: 21
+    file: enchanted_books.yml
+    lore:
+      - <color:#A0A0A0>High-tier enchantments
+
+  tools:
+    name: <b><#d66d48>Tools
+    material: COPPER_AXE
+    slot: 20
+    file: tools.yml
+    lore:
+      - <color:#A0A0A0>Utility and special tools
+
+  blocks:
+    name: <b><#985442>Blocks
+    material: BRICKS
+    slot: 32
+    file: blocks.yml
+    lore:
+      - <color:#A0A0A0>Building and decoration blocks
+
+  redstone:
+    name: <b><#B32004>Redstone
+    material: REDSTONE
+    slot: 30
+    file: redstone.yml
+    lore:
+      - <color:#A0A0A0>Components and mechanisms
+
+  misc:
+    name: <b><#c7e5d4>Miscellaneous
+    material: BLUE_EGG
+    slot: 24
+    file: misc.yml
+    lore:
+      - <color:#A0A0A0>Rare and miscellaneous items
+
+  coloredblocks:
+    name: <b><#FF6B21>Colored Blocks
+    material: ORANGE_CANDLE
+    slot: 13
+    file: colored_blocks.yml
+    lore:
+      - <color:#A0A0A0>Every colored block !
+
+  food:
+    name: <b><#A6511C>Food
+    material: COOKED_BEEF
+    slot: 31
+    file: food.yml
+    lore:
+      - <color:#A0A0A0>Something to eat

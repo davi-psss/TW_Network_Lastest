@@ -1,0 +1,77 @@
+title: lang:ah.gui.title.history.sell
+size: 54
+
+items:
+  nav-prev:
+    material: SPECTRAL_ARROW
+    name: lang:ah.gui.item.nav.prev.name
+    slot: 48
+    action: page_prev
+    hide-attributes: true
+  
+  nav-next:
+    material: SPECTRAL_ARROW
+    name: lang:ah.gui.item.nav.next.name
+    slot: 50
+    action: page_next
+    hide-attributes: true
+  
+  back:
+    material: EXPERIENCE_BOTTLE
+    name: lang:ah.gui.item.back_history.name
+    slot: 45
+    action: back_history
+    hide-attributes: true
+  
+  close:
+    material: NETHER_WART
+    name: lang:ah.gui.item.close.name
+    slot: 53
+    action: close
+    hide-attributes: true
+  
+  stats:
+    material: WRITABLE_BOOK
+    slot: 4
+    name: lang:ah.gui.item.sell_stats.name
+    hide-attributes: true
+  
+  empty:
+    material: NETHER_WART
+    slot: 31
+    name: lang:ah.gui.item.empty_history.sell.name
+    lore:
+    - lang:ah.gui.item.empty_history.sell.lore1
+    - lang:ah.gui.item.empty_history.sell.lore2
+    hide-attributes: true
+    dynamic: true
+  
+  left_1:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 0
+    decoration: true
+  
+  left_2:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 1
+    decoration: true
+  
+  left_3:
+    material: WHITE_STAINED_GLASS_PANE
+    slot: 9
+    decoration: true
+  
+  right_1:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 7
+    decoration: true
+  
+  right_2:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 8
+    decoration: true
+  
+  right_3:
+    material: LIME_STAINED_GLASS_PANE
+    slot: 17
+    decoration: true

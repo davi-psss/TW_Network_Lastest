@@ -1,0 +1,33 @@
+npcs:
+  2ef7c583-bf01-4efc-9276-573c035f6af4:
+    name: menu
+    creator: bf2b2ea5-688a-3bd3-8b1b-ffea352f9cc8
+    displayName: '&6&lMENU PRINCIPAL'
+    type: PLAYER
+    location:
+      world: world
+      x: 306.4058302063412
+      y: 87.0
+      z: 248.46340775593177
+      yaw: 0.14645386
+      pitch: 2.1000197
+    showInTab: false
+    spawnEntity: true
+    collidable: true
+    glowing: false
+    glowingColor: white
+    turnToPlayer: true
+    turnToPlayerDistance: -1
+    interactionCooldown: 0.0
+    scale: 1.5
+    visibility_distance: 2147483647
+    visibility: ALL
+    skin:
+      identifier: nielspp
+      variant: AUTO
+      mirrorSkin: false
+    actions:
+      RIGHT_CLICK:
+        '1':
+          action: player_command
+          value: menu
