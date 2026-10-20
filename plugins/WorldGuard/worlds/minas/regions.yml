@@ -1,0 +1,14 @@
+#
+# WorldGuard regions for the minas world.
+# Mining and placement remain denied unless TW-Minas handles the action or an operator bypasses the region.
+#
+regions:
+    __global__:
+        members: {}
+        flags: {other-explosion: deny, use: allow, invincible: allow, interact: allow,
+            pvp: deny, mob-spawning: deny, block-place: deny, fire-spread: deny, item-drop: allow,
+            fall-damage: deny, feed-delay: 0, item-pickup: allow, passthrough: deny,
+            block-break: deny, tnt: deny}
+        owners: {}
+        type: global
+        priority: 0

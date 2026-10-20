@@ -9,3 +9,8 @@ groups:
     - world_nether
     shares:
     - all
+  minas:
+    worlds:
+    - minas
+    shares:
+    - all

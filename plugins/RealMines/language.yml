@@ -1,0 +1,349 @@
+Mines:
+  Reset:
+    Starting: '&f%mine% &fis being &ereset.'
+    Percentage: '&6Warning &fThis mine is going to be reset.'
+    Announcement: '&fMine &9%mine% &fjust &areset.'
+    Warning: '&7[&6Warning&7] &r%mine% &fwill reset in &b%time% &9seconds.'
+  Teleport: '&fTeleported to mine &9%mine%'
+  Teleport-Set: '&fTeleport &Aset &ffor mine %mine%'
+  Countdown-Set: '&fCountdown &aset &ffor mine %mine% to &b%time% &fseconds.'
+  Countdown-Set-Unsuccessful: '&cCould not set countdown for mine %mine%. Invalid time or mine cannot be reset by time.'
+  No-Teleport-Location: '&fThis mine &cdoesnt have a teleport location.'
+  Break-Actions:
+    Give-Money: '&fYou just recieved &b%money% coins &ffor breaking this block! &eLucky you!'
+    Drop-Item: '&fAn item has dropped when you broke this block! &eLucky you!'
+    Give-Item: '&fAn item was added to your inventory when you broke this block! &eLucky you!'
+    Input:
+      Command: 'Input in the chat the command for the break action to execute:'
+      Amount: 'Input in the chat the amount to give:'
+      Amount-Error: '&cWhat you inserted is not a valid double.'
+      Chance: 'Input in the chat the chance for the break action (0-100%):'
+GUI:
+  Reset-Name: '&cReset'
+  Faces-Name: '&rFaces'
+  Choose-Name: '&rChoose mine type for: %mine%'
+  Select-Icon-Name: '&rSelect icon for %mine%'
+  Pick-New-Block-Name: '&rPick a new block'
+  Mine-Blocks-Name: '%mine% &rblocks'
+  Color-Picker-Name: '&rPick a color'
+  Faces:
+    Name: '&3&l%face%'
+    Selected-Description:
+    - '&7Selected Block: &f%material%'
+    - '&7Press &fQ (Drop) &7to &cdelete.'
+    None-Description:
+    - '&7Selected Block: &fNone'
+    - '&7Press &fQ (Drop) &7to &cdelete.'
+  Resets:
+    Percentage-On:
+      Name: '&9Reset By Percentage &7(&a&lON&r&7)'
+      Description:
+      - '&7Left click to turn &cOFF'
+      - '&fRight Click to input a new percentage.'
+      - '&fCurrent Value: &b%value%%'
+    Percentage-Off:
+      Name: '&9Reset By Percentage &7(&c&lOFF&r&7)'
+      Description:
+      - '&7Left click to turn &aON'
+      - '&fRight Click to input a new percentage.'
+      - '&fCurrent Value: &b%value%%'
+    Time-On:
+      Name: '&9Reset By Time &7(&a&lON&r&7)'
+      Description:
+      - '&7Left click to turn &cOFF'
+      - '&fRight Click to input a new time.'
+      - '&fCurrent Value: &b%value% seconds.'
+    Time-Off:
+      Name: '&9Reset By Time &7(&c&lOFF&r&7)'
+      Description:
+      - '&7Left click to turn &aON'
+      - '&fRight Click to input a new time.'
+      - '&fCurrent Value: &b%value% seconds.'
+  Items:
+    Schematic:
+      Name: '&b&lSchematic'
+    Farm:
+      Name: '&a&lFarm'
+    Blocks:
+      Name: '&9&lBlocks'
+      Description:
+      - '&fClick here to open this category.'
+    Faces:
+      Name: '&a&lFaces'
+      Description:
+      - '&fClick here to configure the mine faces.'
+    Resets:
+      Name: '&6&lResets'
+      Description:
+      - '&fClick here to manage the resets.'
+    Teleport:
+      Name: '&5&lTeleport'
+      Description:
+      - '&fClick here to teleport to this mine.'
+    Icon:
+      Name: '&b&lIcon'
+      Description:
+      - '&fClick here to select a new icon.'
+    Name:
+      Name: '&f&lName'
+      Description:
+      - '&fClick here to input a new name.'
+    Displayname:
+      Name: '&a&lDisplayname'
+      Description:
+      - '&fClick here to input a new displayname.'
+    Clear:
+      Name: '&c&lClear'
+      Description:
+      - '&fClick here to clear this mine.'
+    Reset:
+      Name: '&4&lReset'
+      Description:
+      - '&fClick here to reset this mine.'
+    Boundaries:
+      Name: '&e&lBoundaries'
+      Description:
+      - '&fClick to see the boundaries of the mine.'
+    MineColor:
+      Name: '&3&lColor'
+      Description:
+      - '&fClick to select the mine color.'
+    Add:
+      Name: '&b&lAdd Block'
+      Description:
+      - '&fClick here to add a new block.'
+      - '&fYou can also &bclick &fon a block in your inventory to add it!'
+    Search:
+      Name: '&9&lSearch'
+      Description:
+      - '&fClick here to seach for a block.'
+    Next:
+      Name: '&a&lNext'
+      Description:
+      - '&fClick here to go to the next page.'
+    Back:
+      Name: '&6&lBack'
+      Description:
+      - '&fClick here to go to the previous page.'
+    Go-Back:
+      Name: '&9Go Back'
+      Description:
+      - '&7Click here to go back.'
+    Close:
+      Name: '&c&lClose'
+      Description:
+      - '&fClick here to close this.'
+    Achievements:
+      Name: '&e&lAchievements'
+      Description:
+      - '&fClick here to view the achievement board.'
+    Leaderboard:
+      Name: '&6&lLeaderboard'
+      Description:
+      - '&fClick here to view the top miners.'
+    Leaderboard-Mode:
+      Name: '&b&lSorting by: &f%value%'
+      Description:
+      - '&fClick here to sort by a block instead.'
+      - '&e&nRight-Click&r&f to go back to the total.'
+    Achievement-Locked:
+      Description:
+      - '&8Locked'
+      - '&f%bar%'
+      - '&fProgress: &b%value%'
+    Achievement-Unlocked:
+      Description:
+      - '&a&lUnlocked!'
+    Achievement-Rewards:
+      Name: '&fRewards:'
+    Leaderboard-Empty:
+      Name: '&cNothing here yet'
+      Description:
+      - '&7Nobody has mined this yet, or the'
+      - '&7leaderboard hasn''t refreshed since they did.'
+    Mine-Block:
+      Block:
+        Name: '&3&l%material%'
+        Depth: '&fDepth: &b%min%% &f- &b%max%%'
+        Description:
+        - '&fPercentage: &b%percentage%%'
+        - '&6'
+        - '&a&nLeft-Click&r&f to edit the percentage.'
+        - '&e&nRight-Click&r&f to edit this block''s break actions.'
+        - '&e&nShift-Left-Click&r&f to toggle this block''s drop.'
+        - '&e&nShift-Right-Click&r&f to toggle this block''s break.'
+        - '&c&nQ (Drop)&r&f to remove this block.'
+      Schematic-Block:
+        Name: '&3&l%material%'
+        Description:
+        - '&6'
+        - '&e&nRight-Click&r&f to edit this block''s break actions.'
+        - '&e&nShift-Left-Click&r&f to toggle this block''s drop.'
+        - '&e&nShift-Right-Click&r&f to toggle this block''s break.'
+    Farm-Item:
+      Name: '&3&l%material% &r&7- &fAge: &3%age%'
+      Description:
+      - '&fPercentage: &b%percentage%%'
+      - '&6'
+      - '&a&nLeft-Click&r&f to edit the percentage.'
+      - '&e&nRight-Click&r&f to edit this item''s break actions.'
+      - '&a&nShift-Left&r&f to increase the age.'
+      - '&e&nShift-Right&r&f to decrease the age.'
+      - '&c&nQ (Drop)&r&f to remove this block.'
+    No-Blocks:
+      Name: '&f&lNo blocks in this set!'
+      Description:
+      - '&fClick on the upper icon to add a new block!'
+    Mine:
+      Description:
+      - '&3%remainingblocks%&7/&b%totalblocks% &fblocks'
+      - '&f%bar%'
+      - '&a&nClick&r&f to edit this mine.'
+      - '&c&nQ (Drop)&r&f to delete this mine'
+      Duplicate: '&b&nF (Swap)&r&f to duplicate this mine'
+    No-Mines-Found:
+      Name: '&9&lNo Mines Found'
+      Description:
+      - '&fCreate a new mine with'
+      - '&f/rm create <name>.'
+    Pick:
+      Name: '&3&l%material%'
+      Description:
+      - '&fClick to pick this.'
+    Colors:
+      Red: '&c&lRED'
+      Green: '&2&lGREEN'
+      Blue: '&9&lBLUE'
+      Brown: '&4&lBROWN'
+      Gray: '&7&lGRAY'
+      White: '&f&lWHITE'
+      Orange: '&6&lORANGE'
+      Yellow: '&e&lYELLOW'
+      Purple: '&d&lPURPLE'
+      Description:
+      - '&fClick to set this mine color.'
+System:
+  Player-Only: '&cOnly players can run this command.'
+  Boundaries-Not-Set: '&fYour boundaries &care not set.'
+  Cant-Add-Item: '&fThat item &ccan''t &fbe added to the mine.'
+  Mine-Created: '&fMine &b%mine% &acreated.'
+  Reloaded: '&aReloaded.'
+  Mine-Task-Created: '&fMine task &b%task% &fwith delay &e%delay% &fcreated.'
+  Mine-Task-Exists: '&cThere is already a mine task with that name.'
+  Mine-Exists: '&cThere is already a mine with that name.'
+  Mine-Linked: '&fMine &alinked!'
+  Mine-Unlinked: '&fMine &aunlinked!'
+  Mine-Deleted: '&fMine deleted.'
+  Mine-Task-Doesnt-Exist: '&cNo mine task exists with that name.'
+  Mine-Doesnt-Exist: '&cNo mine exists with that name.'
+  Mine-Renamed: '&fMined renamed to &b%name%'
+  Mine-Duplicated: '&fMine duplicated into &b%name%&f.'
+  Mine-Clear: '&fMine has been &acleared.'
+  Stopped-Mine-Tasks: '&cStopped &fall mine tasks.'
+  Started-Mine-Tasks: '&aStarted &fall mine tasks.'
+  Remove: '&fYou removed &b%object%'
+  Region-Updated: '&BBounds &aupdated.'
+  Default-Location-Set: '&aThe default location was set to where you are standing.'
+  Add-Blocks: '&fDo you want to add the following blocks to the mine? (type yes or no)'
+  Block-Count: '&fTotal Blocks: &3%count%'
+  Blocks-Added: '&b%count% &fblock have been &aadded &fto the mine.'
+  Silent-Off: '&f%mine% &awill now announce resets.'
+  Silent-On: '&f%mine% &cwill no longer announce resets.'
+  Update-Found: '&6&lWARNING! &fThere is a new version of RealMines!'
+  Input-Cancelled: '&fInput canceled.'
+  Error-Occurred: '&cAn error occurred. Contact JoseGamer_PT on www.spigotmc.org'
+  Error-Permission: '&fYou &cdo not &fhave permission to execute this command!'
+  Error-Break-Permission: '&fYou &cdo not &fhave permission to break blocks in this mine!'
+  Error-Command: '&cThe command you''re trying to run doesn''t exist!'
+  Error-Usage: '&cWrong usage for the command!'
+  Nothing-Found: '&fNothing found for your search criteria.'
+  Invalid-Schematic: '&cThe specified schematic file does not exist. Did you write the extension format? (.schem, etc)'
+  Input-Schematic: '&fInput in chat the schematic file name in RealMines/schematics folder (Example: schem1.schem)'
+  Input-Parse: '&cInput a percentage from 0 to 100.'
+  Input-Limit-Error: '&cWrong input. Please input a percentage greater than 1 and lower or equal to 100'
+  Input-Percentage-Error: '&cInput a percentage from 0 to 100.'
+  Input-Percentage-Error-Greater: '&cWrong input. Please input a percentage greater than 0.'
+  Input-Percentage-Error-Lower: '&cWrong input. Please input a percentage lower or equal than 100.'
+  Input-Limit-Error-Greater: '&cWrong input. Please input a new time greater than 1'
+  Input-Seconds: '&cInput a new time in seconds.'
+  Input-Mine-Name: '&fInput in the chat the name for the new mine.'
+  Invalid-Mine-Name: '&cThat is not a valid mine name.'
+  Percentage-Modified: '&fPercentage modified to &b%value%'
+  Time-Modified: '&fTime modified to &b%value% seconds.'
+  No-Converter-Available: '&cThere is no converter available for that plugin.'
+  Mine-Freeze: '%name% &r&f freeze: '
+  # Title and subtitle
+  Type-Input:
+  - '&l&9Type in chat your input'
+  - '&fType &4cancel &fto cancel'
+  # The text box asked in instead, on servers that have dialogs (1.21.6 and up): its title and description.
+  Type-Input-Dialog:
+  - '&9Input'
+  - '&fType your input below.'
+  Dialog-Confirm: '&aConfirm'
+  Dialog-Cancel: '&cCancel'
+  Settings-Saved: '&fSettings saved.'
+Signs:
+  # Split lines with |
+  Setting-Not-Found: '&4Setting|&4not|&4found'
+  Mine-Not-Found: '&4Mine&4|&4not|&4found'
+  Mined-On: mined on
+  Mined-Blocks-On: mined blocks on
+  Blocks-On: blocks on
+  Left-On: left on
+Achievements:
+  Unlocked: '&aAchievement unlocked: &r%name%'
+  Broadcast: '&r%object% &fjust unlocked the achievement &r%name%&f!'
+  Reward: '&fReward: &b%value%'
+  Disabled: '&cPlayer stats are turned off on this server.'
+  None-Configured: '&cThere are no achievements configured.'
+Stats:
+  Header: '&9Mining stats of &f%name%'
+  Total-Mined: '&fBlocks mined: &b%value%'
+  Achievements: '&fAchievements: &b%value% &7(%percentage%%)'
+  Top-Material: '&fMost mined: &b%material% &7(%value%)'
+  No-Data: '&f%name% &chasn''t mined anything yet.'
+  Player-Not-Found: '&cNo player named &f%name% &cwas found.'
+PrivateMines:
+  Disabled: '&cPrivate mines are turned off on this server.'
+  No-Templates: '&cThere are no private mine templates configured.'
+  Template-Not-Found: '&cThere is no private mine template named &f%template%&c.'
+  Template-Created: '&aTemplate &f%template% &awas created from the mine &f%mine%&a.'
+  Template-Deleted: '&aTemplate &f%template% &awas deleted.'
+  Template-Create-Failed: '&cCouldn''t create that template: &f%value%'
+  Claimed: '&aYour private mine &r%mine% &awas created!'
+  Claim-Cost: '&fIt cost you &b%value%&f.'
+  Already-Owned: '&cYou already have a private mine from that template.'
+  Limit-Reached: '&cYou already have the maximum of &f%count% &cprivate mines.'
+  Insufficient-Funds: '&cYou need &f%value% &cto claim that private mine.'
+  No-Economy: '&cThat private mine costs money, but no economy plugin is available.'
+  World-Missing: '&cThe private mines world couldn''t be created. Check the console.'
+  No-Free-Slot: '&cThere is no free space for another private mine right now.'
+  Unsupported-Type: '&cSchematic mines can''t be used as private mine templates.'
+  Claim-Failed: '&cCouldn''t create your private mine. Check the console.'
+  No-Mine: '&cYou don''t have a private mine yet.'
+  Not-Yours: '&cThis private mine isn''t yours.'
+  Cant-Build: '&cYou can only mine and build inside your own private mine.'
+  Cant-Duplicate: '&cA private mine can''t be duplicated.'
+  Released: '&aYour private mine &r%mine% &awas released.'
+  Refunded: '&aYou were refunded &f%value%&a.'
+  Trusted-Added: '&f%player% &acan now use your private mine.'
+  Trusted-Removed: '&f%player% &ccan no longer use your private mine.'
+  Trusted-Already: '&f%player% &cis already trusted.'
+  Trusted-Not-Found: '&f%player% &cisn''t trusted on your private mine.'
+  Trusted-Limit: '&cYou can only trust &f%count% &cplayers on this mine.'
+  Trusted-Empty: '&7Nobody is trusted on this mine.'
+  Trusted-Header: '&9Trusted on &r%mine%&9:'
+  Extended: '&aYour private mine was extended. It now expires in &f%time%&a.'
+  Not-Time-Limited: '&cThat private mine doesn''t expire, so it can''t be extended.'
+  Expired: '&cYour private mine &r%mine% &cexpired.'
+  Info-Header: '&9Your private mines:'
+  Info-Line: '&f%mine% &7(&f%template%&7) &7- resets every &f%time%'
+  Info-Expires: '&7  expires in &f%time%'
+  List-Empty: '&cThere are no private mines claimed right now.'
+  List-Header: '&9Private mines (&f%count%&9):'
+  List-Line: '&f%player% &7- &f%mine% &7(&f%template%&7)'
+  Player-Not-Found: '&cNo player named &f%player% &cwas found.'
+  Never-Expires: never
+
+Version: 12

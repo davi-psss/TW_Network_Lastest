@@ -814,3 +814,13 @@
 1792455605766:lp listgroups 2
 1792455613702:lp listgroups 3
 1792461588176:stop
+1792515202329:mv create minas normal --generator VoidGen
+1792515202344:stop
+1792515366041:mv create minas normal --generator VoidGen
+1792515443848:mvinv create-group minas minas all
+1792515499498:stop
+1792515838096:lp listgroups
+1792515842246:stop
+1792515933711:lp listgroups 2
+1792515938670:lp listgroups 3
+1792515943832:stop

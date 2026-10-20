@@ -1,0 +1,341 @@
+Starting org.bukkit.craftbukkit.Main
+2026-10-20T16:40:04.959549500Z ServerMain WARN Advanced terminal features are not available in this environment
+[13:40:05 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Eclipse Adoptium Temurin-25.0.4.1+1) on Windows 11 10.0 (amd64)
+[13:40:05 INFO]: [bootstrap] Loading Purpur 26.3-2652-HEAD@b5fae12 (2026-10-17T03:38:05Z) for Minecraft 26.3
+[13:40:05 INFO]: [PluginInitializerManager] Initializing plugins...
+[13:40:06 INFO]: [PluginInitializerManager] Initialized 28 plugins
+[13:40:06 INFO]: [PluginInitializerManager] Paper plugins (3):
+ - FancyHolograms (2.12.0), FancyNpcs (2.12.1), MiniMOTD (2.2.5)
+[13:40:06 INFO]: [PluginInitializerManager] Bukkit plugins (25):
+ - AwesomeChat (1.0.10.1), DeluxeHub (3.8.6), DeluxeMenus (1.14.1-Release), EssentialsC (4.3.4), FastAsyncWorldEdit (2.16.1+9e5e49e), LuckPerms (5.5.71), Multiverse-Core (5.8.1), Multiverse-Inventories (5.3.6), PlaceholderAPI (2.12.3), ProCosmetics (2.0.9), RealMines (1.9), TAB (6.2.1), Vault (2.20.3), VoidGen (2.3.8), VoidSpawnPlus (1.2.0), WorldGuard (7.0.20+2410-0b6c3f1), tw-caixas (1.0), tw-core (1.0), tw-economia (1.0), tw-farms (1.0), tw-maquinas (1.0), tw-minas (1.0), tw-ranks (1.0), tw-spawners (1.0), tw-terrenos (1.0)
+[13:40:13 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:40:13 INFO]: [com.destroystokyo.paper.profile.PaperServicesDiscoveryService] Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[13:40:13 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 692,7ms
+[13:40:16 INFO]: Loaded 1866 advancements
+[13:40:17 INFO]: Starting minecraft server version 26.3
+[13:40:17 INFO]: Loading properties
+[13:40:17 INFO]: This server is running Purpur version 26.3-2652-HEAD@b5fae12 (2026-10-17T03:38:05Z) (Implementing API version 26.3.build.2652-stable)
+[13:40:17 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:40:17 INFO]: Server Ping Player Sample Count: 12
+[13:40:17 INFO]: Using 4 threads for Netty based IO
+[13:40:17 INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[13:40:18 INFO]: Default game type: SURVIVAL
+[13:40:18 INFO]: Generating keypair
+[13:40:18 INFO]: Starting Minecraft server on *:25565
+[13:40:18 INFO]: Paper: Using Java compression from Velocity.
+[13:40:18 INFO]: Paper: Using Java cipher from Velocity.
+[13:40:19 INFO]: [EssentialsC] Enabled FastStats Metrics and Error Tracking
+[13:40:19 INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[13:40:20 INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.71
+[13:40:20 INFO]: [LuckPerms] Loading configuration...
+[13:40:21 INFO]: [Vault] Loading server plugin Vault v2.20.3
+[13:40:21 INFO]: [VoidGen] Loading server plugin VoidGen v2.3.8
+[13:40:21 INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.16.1+9e5e49e
+[13:40:21 WARN]: 
+**********************************************
+** You are using the Spigot-mapped FAWE jar on a modern Paper version.
+** This will result in slower first-run times and wasted disk space from plugin remapping.
+** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
+**********************************************
+[13:40:21 INFO]: Default configuration file written: worldedit-config.yml
+[13:40:22 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4335a77d]
+[13:40:22 INFO]: [tw-core] Loading server plugin tw-core v1.0
+[13:40:22 INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.8.1
+[13:40:22 INFO]: [tw-economia] Loading server plugin tw-economia v1.0
+[13:40:22 INFO]: [RealMines] Loading server plugin RealMines v1.9
+[13:40:22 INFO]: [tw-spawners] Loading server plugin tw-spawners v1.0
+[13:40:22 INFO]: [tw-maquinas] Loading server plugin tw-maquinas v1.0
+[13:40:22 INFO]: [tw-minas] Loading server plugin tw-minas v1.0
+[13:40:22 INFO]: [tw-ranks] Loading server plugin tw-ranks v1.0
+[13:40:22 INFO]: [tw-terrenos] Loading server plugin tw-terrenos v1.0
+[13:40:22 INFO]: [tw-farms] Loading server plugin tw-farms v1.0
+[13:40:22 INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.20+2410-0b6c3f1
+[13:40:22 INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.12.1
+[13:40:22 INFO]: [TAB] Loading server plugin TAB v6.2.1
+[13:40:22 INFO]: [VoidSpawnPlus] Loading server plugin VoidSpawnPlus v1.2.0
+[13:40:22 INFO]: [tw-caixas] Loading server plugin tw-caixas v1.0
+[13:40:22 INFO]: [ProCosmetics] Loading server plugin ProCosmetics v2.0.9
+[13:40:22 INFO]: [ProCosmetics] Initializing...
+[13:40:24 INFO]: Environment: Environment[discoveryUrl=https://discovery.minecraftservices.com/minecraft/client, name=PROD]
+[13:40:25 INFO]: [ProCosmetics] Hooking into PlaceholderAPI...
+[13:40:25 INFO]: [PlaceholderAPI] Successfully registered internal expansion: procosmetics [1.0.0]
+[13:40:25 INFO]: [ProCosmetics] Hooking into WorldGuard...
+[13:40:25 INFO]: [InvLogging] Loading server plugin Multiverse-Inventories v5.3.6
+[13:40:25 INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.2.5
+[13:40:25 INFO]: [FancyHolograms] Loading server plugin FancyHolograms v2.12.0
+[13:40:25 INFO]: [EssentialsC] Loading server plugin EssentialsC v4.3.4
+[13:40:25 INFO]: [FancyHolograms] (Server thread) INFO: Successfully loaded FancyHolograms version 2.12.0
+[13:40:25 INFO]: [EssentialsC] Successfully hooked into Vault.
+[13:40:25 INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[13:40:25 WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[13:40:25 INFO]: [DeluxeHub] Loading server plugin DeluxeHub v3.8.6
+[13:40:25 INFO]: [Awesome Chat] Loading server plugin AwesomeChat v1.0.10.1
+[13:40:25 INFO]: [LuckPerms] Enabling LuckPerms v5.5.71
+[13:40:26 INFO]:         __    
+[13:40:26 INFO]:   |    |__)   LuckPerms v5.5.71
+[13:40:26 INFO]:   |___ |      Running on Bukkit - Purpur
+[13:40:26 INFO]: 
+[13:40:26 INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:40:26 INFO]: [LuckPerms] Loading internal permission managers...
+[13:40:27 INFO]: [LuckPerms] Performing initial data load...
+[13:40:27 INFO]: [LuckPerms] Successfully enabled. (took 1917ms)
+[13:40:27 INFO]: [Vault] Enabling Vault v2.20.3
+[13:40:27 INFO]: [Vault] Enabled Version 2.20.3
+[13:40:27 INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:40:27 INFO]: [VoidGen] Enabling VoidGen v2.3.8
+[13:40:27 INFO]: [VoidGen] Using an unknown version of VoidGen! It will switch to latest version build for.
+[13:40:27 INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.16.1+9e5e49e
+[13:40:27 INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[13:40:27 INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[13:40:27 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:40:28 INFO]: WEPIF: Vault detected! Using Vault for permissions
+[13:40:28 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v26_3.PaperweightFaweAdapter as the Bukkit adapter
+[13:40:30 INFO]: [Awesome Chat] Enabling AwesomeChat v1.0.10.1
+[13:40:30 INFO]: [Awesome Chat] Config is up to date (v22).
+[13:40:30 INFO]: [Awesome Chat] Successfully hooked into LuckPerms
+[13:40:30 INFO]: [Awesome Chat] Successfully hooked into LuckPerms
+[13:40:30 WARN]: [Awesome Chat] PlaceholerAPI has not yet initialized, waiting to hook...
+[13:40:30 INFO]: [Awesome Chat] PrivateMessageManager loaded.
+[13:40:30 INFO]: [Awesome Chat] SocialSpyManager loaded.
+[13:40:30 INFO]: [Awesome Chat] ChatListener loaded.
+[13:40:30 INFO]: [Awesome Chat] [ChatFilter] Loaded 68 wildcard banned patterns from: plugins\AwesomeChat\modules\filter
+[13:40:30 INFO]: [Awesome Chat] ChatFilterManager loaded.
+[13:40:30 INFO]: [Awesome Chat] AutoBroadcasterManager loaded.
+[13:40:30 INFO]: [Awesome Chat] SoundManager loaded.
+[13:40:30 INFO]: [Awesome Chat] HoverManager loaded.
+[13:40:30 INFO]: [Awesome Chat] ChannelManager loaded. 3 channels registered.
+[13:40:30 INFO]: [Awesome Chat] IgnoreManager loaded.
+[13:40:30 INFO]: [Awesome Chat] MentionManager loaded.
+[13:40:30 INFO]: [Awesome Chat] ItemDisplayManager loaded.
+[13:40:30 INFO]: [Awesome Chat] ChatRadiusManager loaded.
+[13:40:30 INFO]: [Awesome Chat] ChatLogManager loaded (sqlite).
+[13:40:30 INFO]: [Awesome Chat] ChatColorManager loaded.
+[13:40:30 INFO]: [Awesome Chat] AwesomeChatAPI v1.0 loaded.
+[13:40:30 INFO]: [Awesome Chat] Attempting to hook into PlaceholderAPI...
+[13:40:30 INFO]: [Awesome Chat] AwesomeChat has been enabled!
+[13:40:30 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:40:30 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:40:30 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:40:30 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:40:30 INFO]: Preparing level "world"
+[13:40:31 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[13:40:31 INFO]: Preparing spawn area: 100%
+[13:40:31 INFO]: Prepared spawn area in 3 ms
+[13:40:31 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[13:40:31 INFO]: Preparing spawn area: 100%
+[13:40:31 INFO]: Prepared spawn area in 2 ms
+[13:40:31 INFO]: Done preparing level "world" (1.081s)
+[13:40:31 INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[13:40:32 INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:40:32 INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
+[13:40:32 INFO]: [Awesome Chat] Successfully hooked into PlaceholderAPI
+[13:40:32 INFO]: [tw-core] Enabling tw-core v1.0
+[13:40:32 INFO]: [tw-core] Iniciando conexao com o banco de dados...
+[13:40:32 ERROR]: [tw-core] SLF4J(W): No SLF4J providers were found.
+[13:40:32 ERROR]: [tw-core] SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+[13:40:32 ERROR]: [tw-core] SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+[13:40:32 INFO]: [tw-core] Pool de conexoes estabelecida com sucesso!
+[13:40:33 INFO]: [tw-core] [TW-Core] Nucleo de dados carregado com sucesso!
+[13:40:33 INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.8.1
+[13:40:34 INFO]: [VoidGen] 
+[13:40:34 INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[13:40:34 INFO]: [VoidGen] > 
+[13:40:34 INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[13:40:34 INFO]: [VoidGen] > {"biome":"the_void"}
+[13:40:34 INFO]: [VoidGen] > 
+[13:40:34 INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[13:40:34 INFO]: [VoidGen] 
+[13:40:35 INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.8.1]
+[13:40:35 INFO]: [Multiverse-Core] API service loaded!
+[13:40:35 INFO]: [Multiverse-Core] [32mVersion 5.8.1 (API v5.8) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71[0m
+[13:40:35 INFO]: [VoidGen] VoidGen hooked into Multiverse!
+[13:40:35 INFO]: [tw-economia] Enabling tw-economia v1.0
+[13:40:35 INFO]: [PlaceholderAPI] Successfully registered internal expansion: tweco [1.0]
+[13:40:35 INFO]: [tw-economia] [TW-Economia] Motor de precos e multiplicadores iniciado com sucesso de forma independente!
+[13:40:35 INFO]: [RealMines] Enabling RealMines v1.9
+[13:40:35 INFO]: [RealMines]    _____           ____  ____
+[13:40:35 INFO]: [RealMines]   | ___ \         | |  \/  (_)  Version: 1.9
+[13:40:35 INFO]: [RealMines]   | |_/ /___  __ _| | .  . |_ _ __   ___  ___
+[13:40:35 INFO]: [RealMines]   |    // _ \/ _` | | |\/| | | '_ \ / _ \/ __|
+[13:40:35 INFO]: [RealMines]   | |\ \  __/ (_| | | |  | | | | | |  __/\__ \
+[13:40:35 INFO]: [RealMines]   \_| \_\___|\__,_|_\_|  |_/_|_| |_|\___||___/
+[13:40:35 INFO]: [RealMines]                          Made by: JoseGamer_PT
+[13:40:36 INFO]: [RealMines] Hooked into Vault!
+[13:40:36 INFO]: [RealMines] Loading Mines.
+[13:40:36 INFO]: [RealMines] Loaded 0 mines and 0 mine signs.
+[13:40:36 INFO]: [RealMines] Loaded 0 mine tasks.
+[13:40:36 INFO]: [RealMines] Loaded 5 achievements.
+[13:40:36 INFO]: [PlaceholderAPI] Successfully registered internal expansion: realmines [1.9]
+[13:40:36 INFO]: [RealMines] Hooked onto PlaceholderAPI!
+[13:40:36 INFO]: [RealMines] Using FAWE/WorldEdit for block placement.
+[13:40:36 INFO]: [RealMines] Finished loading in 1.48 seconds.
+[13:40:36 INFO]: [RealMines] <------------------ RealMines v1.9 ------------------>
+[13:40:36 INFO]: [tw-spawners] Enabling tw-spawners v1.0
+[13:40:37 INFO]: [tw-spawners] [TW-Spawners] Sistema de spawners, stacking e hologramas iniciado com sucesso!
+[13:40:37 INFO]: [tw-maquinas] Enabling tw-maquinas v1.0
+[13:40:37 INFO]: [tw-maquinas] [TW-Maquinas] Sistema de maquinas e hologramas nativos ativado com sucesso!
+[13:40:37 INFO]: [tw-minas] Enabling tw-minas v1.0
+[13:40:37 INFO]: [tw-minas] [TW-Minas] Motor de mineracao, Cartinhas (Missoes) e Eventos carregados com sucesso!
+[13:40:37 INFO]: [tw-ranks] Enabling tw-ranks v1.0
+[13:40:37 INFO]: [PlaceholderAPI] Successfully registered internal expansion: tw [1.0]
+[13:40:37 INFO]: [tw-ranks] [TW-Ranks] PlaceholderAPI detetado! Variaveis %tw_rank%, %tw_prestigio% e %tw_tokens% ativadas.
+[13:40:37 INFO]: [tw-ranks] [TW-Ranks] Sistema de progressao iniciado!
+[13:40:37 INFO]: [tw-terrenos] Enabling tw-terrenos v1.0
+[13:40:37 INFO]: [tw-terrenos] [TW-Terrenos] Modulo de terrenos hibrido ativado!
+[13:40:37 INFO]: [tw-farms] Enabling tw-farms v1.0
+[13:40:37 INFO]: [tw-farms] [TW-Farms] Plantações físicas, boosters de crescimento e armazéns ativados.
+[13:40:37 INFO]: [WorldGuard] Enabling WorldGuard v7.0.20+2410-0b6c3f1
+[13:40:37 INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[13:40:37 INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[13:40:37 INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[13:40:37 INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[13:40:37 INFO]: [WorldGuard] Loaded configuration for world 'world'
+[13:40:37 INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[13:40:37 INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[13:40:37 INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[13:40:37 INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[13:40:37 INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[13:40:37 INFO]: [WorldGuard] Loading region data...
+[13:40:37 INFO]: [FancyNpcs] Enabling FancyNpcs v2.12.1
+[13:40:38 INFO]: [TAB] Enabling TAB v6.2.1
+[13:40:38 INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.12.1) has been enabled.
+[13:40:38 INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_26_2.NMSImplementationProvider
+[13:40:38 INFO]: [TAB] Enabled in 414ms
+[13:40:38 INFO]: [VoidSpawnPlus] Enabling VoidSpawnPlus v1.2.0
+[13:40:38 INFO]: [VoidSpawnPlus] Configuration loaded successfully! Monitoring 3 world(s).
+[13:40:38 INFO]: [VoidSpawnPlus] Loaded 1 spawn location(s).
+[13:40:38 INFO]: [VoidSpawnPlus] VoidSpawn has been enabled successfully!
+[13:40:38 INFO]: [tw-caixas] Enabling tw-caixas v1.0
+[13:40:38 INFO]: [tw-caixas] [TW-Caixas] Chaves virtuais, pity, forja e caixas físicas ativados.
+[13:40:38 INFO]: [ProCosmetics] Enabling ProCosmetics v2.0.9
+[13:40:38 INFO]: [WorldGuard] Registering session handler se.filledev.procosmetics.worldguard.WorldGuardManager
+[13:40:38 INFO]: [ProCosmetics] Initialized!
+[13:40:38 INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.3.6
+[13:40:39 INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.3.6]
+[13:40:39 INFO]: [Multiverse-Inventories] Loading player names map...
+[13:40:39 INFO]: [Multiverse-Inventories] Version 5.3.6 (API v5.3) Enabled - By dumptruckman and benwoo1110
+[13:40:39 INFO]: [MiniMOTD] Enabling MiniMOTD v2.2.5
+[13:40:39 INFO]: [FancyHolograms] Enabling FancyHolograms v2.12.0
+[13:40:40 INFO]: [FancyHolograms] (Server thread) INFO: Successfully enabled FancyHolograms version 2.12.0
+[13:40:40 INFO]: [EssentialsC] Enabling EssentialsC v4.3.4
+[13:40:40 INFO]: [EssentialsC] [38;2;255;255;255mFor more startup Information, enable debug[0m
+[13:40:40 INFO]: [EssentialsC] 
+[13:40:40 INFO]: [EssentialsC] [38;2;255;217;0m  ███████╗███████╗███████╗ ██████╗[0m
+[13:40:40 INFO]: [EssentialsC] [38;2;255;217;0m  ██╔════╝██╔════╝██╔════╝██╔════╝[0m[38;2;155;155;155m  EssentialsC[0m
+[13:40:40 INFO]: [EssentialsC] [38;2;255;217;0m  █████╗  ███████╗███████╗██║     [0m[38;2;255;255;255m  v4.3.4[0m
+[13:40:40 INFO]: [EssentialsC] [38;2;255;217;0m  ██╔══╝  ╚════██║╚════██║██║     [0m[38;2;155;155;155m  by _GodlyCow[0m
+[13:40:40 INFO]: [EssentialsC] [38;2;255;217;0m  ███████╗███████║███████║╚██████╗[0m
+[13:40:40 INFO]: [EssentialsC] [38;2;255;217;0m  ╚══════╝╚══════╝╚══════╝ ╚═════╝[0m
+[13:40:40 INFO]: [EssentialsC] 
+[13:40:40 INFO]: [EssentialsC] [38;2;155;155;155m  Platform  [0m[1m[38;2;0;157;255mPaper[0m
+[13:40:40 INFO]: [EssentialsC] [38;2;155;155;155m  ANSI      [0m[38;2;0;217;126mSupported[0m
+[13:40:40 INFO]: [EssentialsC] 
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpa
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpahere
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpaccept
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpdeny
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpcancel
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpaignore
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpatoggle
+[13:40:40 INFO]: [EssentialsC] Unregistered command: tpaqueue
+[13:40:40 INFO]: [EssentialsC] Unregistered command: home
+[13:40:40 INFO]: [EssentialsC] Unregistered command: sethome
+[13:40:40 INFO]: [EssentialsC] Unregistered command: delhome
+[13:40:40 INFO]: [EssentialsC] Unregistered command: homes
+[13:40:40 INFO]: [EssentialsC] Unregistered command: back
+[13:40:40 INFO]: [EssentialsC] Unregistered command: dback
+[13:40:40 INFO]: [EssentialsC] Unregistered command: ah
+[13:40:41 INFO]: [EssentialsC] Restored command /scoreboard from minecraft:scoreboard
+[13:40:41 INFO]: [EssentialsC] Unregistered command: scoreboard
+[13:40:41 INFO]: [EssentialsC] Unregistered command: rtp
+[13:40:41 INFO]: [EssentialsC] Unregistered command: trash
+[13:40:41 INFO]: [EssentialsC] Loaded 1658 Items from items.json
+[13:40:41 INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[13:40:41 INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[13:40:41 INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[13:40:41 INFO]: [DeluxeMenus] 1 GUI menus loaded!
+[13:40:41 INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[13:40:41 INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[13:40:41 INFO]: [DeluxeHub] Enabling DeluxeHub v3.8.6
+[13:40:41 INFO]: [DeluxeHub]  _   _            _          _    _ 
+[13:40:41 INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[13:40:41 INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[13:40:41 INFO]: [DeluxeHub] 
+[13:40:41 INFO]: [DeluxeHub] Version: 3.8.6
+[13:40:41 INFO]: [DeluxeHub] Author: ItzSave & ItsLewizzz
+[13:40:41 INFO]: [DeluxeHub] 
+[13:40:41 INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[13:40:42 INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[13:40:42 INFO]: [DeluxeHub] Loaded 10 plugin modules.
+[13:40:42 INFO]: [DeluxeHub] 
+[13:40:42 INFO]: [DeluxeHub] Successfully loaded in 454ms
+[13:40:42 INFO]: [spark] Starting background profiler...
+[13:40:42 INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13:40:42 INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:40:42 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:40:42 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:40:42 INFO]: Running delayed init tasks
+[13:40:42 INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[13:40:42 INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[13:40:42 INFO]: Done (39.347s)! For help, type "help"
+[13:40:42 INFO]: [PlaceholderAPI] Successfully registered internal expansion: essc [4.3.4]
+[13:40:42 INFO]: [EssentialsC] ================================
+[13:40:42 INFO]: [EssentialsC] EssentialsC - Up To Date
+[13:40:42 INFO]: [EssentialsC] --------------------------------
+[13:40:42 INFO]: [EssentialsC] Running version: 4.3.4
+[13:40:42 INFO]: [EssentialsC] ================================
+[13:40:42 INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[13:40:42 INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[13:40:42 INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[13:40:42 INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[13:40:42 INFO]: 4 placeholder hook(s) registered!
+[13:40:43 ERROR]: Command exception: /mv create minas normal --generator VoidGen
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:475) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:390) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:378) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:369) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:611) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:567) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1847) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:441) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1687) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1357) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:298) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[13:40:43 INFO]: System chat: An unexpected error occurred while trying to execute that command
+[13:40:43 ERROR]: Command exception: /mvinv create-group minas minas all
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:475) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:390) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:378) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:369) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:611) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:567) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1847) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:441) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1687) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1357) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:298) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[13:40:43 INFO]: System chat: An unexpected error occurred while trying to execute that command
+[13:40:43 ERROR]: Command exception: /stop
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.level.ServerLevel.getGameRules()" because the return value of "net.minecraft.commands.CommandSourceStack.getLevel()" is null
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:475) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:390) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:378) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:369) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:611) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:567) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1847) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:441) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1687) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1357) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:298) ~[purpur-26.3.jar:26.3-2652-b5fae12]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[13:40:43 INFO]: System chat: An unexpected error occurred while trying to execute that command
+[13:40:44 INFO]: [RealMines] The plugin is updated to the latest version.
+[13:40:44 INFO]: [ProCosmetics] There is a newer version available for ProCosmetics. Currently running 2.0.9 and the latest release is 2.0.6.

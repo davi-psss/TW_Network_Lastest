@@ -29,3 +29,6 @@ worlds:
   world_the_end:
     y-level: 0
     enabled: false
+  minas:
+    y-level: 0
+    enabled: true
