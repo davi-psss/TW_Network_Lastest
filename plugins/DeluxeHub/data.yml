@@ -1,0 +1,9 @@
+chat_locked: false
+spawn:
+  ==: org.bukkit.Location
+  world_key: minecraft:overworld
+  x: 306.5203901394929
+  y: 87.0
+  z: 257.352990139703
+  pitch: -3.4500232
+  yaw: 179.54239

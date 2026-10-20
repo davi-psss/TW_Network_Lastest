@@ -187,7 +187,7 @@ world-settings:
   worldeditregentempworld:
     verbose: false
 
-config-version: 13\
+config-version: 13
 commands:
   tab-complete: 0
   send-namespaced: false

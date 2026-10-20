@@ -1,0 +1,44 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | CUSTOM COMMANDS                          |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# You do not need to restart your server if you edit anything below here
+
+custom_commands: {}
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | DELUXEHUB COMMANDS                       |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# It's highly recommended to restart your server if you edit anything below
+
+commands:
+  gamemode:
+    enabled: false
+    aliases:
+      - gm
+  gms:
+    enabled: false
+  gmc:
+    enabled: false
+  gma:
+    enabled: false
+  gmsp:
+    enabled: false
+  clearchat:
+    enabled: false
+  fly:
+    enabled: false
+  lockchat:
+    enabled: false
+    aliases:
+      - lc
+  setlobby:
+    enabled: true
+    aliases: []
+  lobby:
+    enabled: true
+    aliases:
+      - hub
+  vanish:
+    enabled: false
+    aliases:
+      - v

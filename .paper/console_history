@@ -810,3 +810,7 @@
 1792374591628:lp group default permission set bukkit.command.about false
 1792374593375:lp group default permission set bukkit.command.help false
 1792374701429:stop
+1792455594349:lp listgroups
+1792455605766:lp listgroups 2
+1792455613702:lp listgroups 3
+1792461588176:stop
