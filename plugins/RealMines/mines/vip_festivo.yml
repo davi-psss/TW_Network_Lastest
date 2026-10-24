@@ -1,0 +1,43 @@
+name: vip_festivo
+type: BLOCKS
+world: minas
+icon: NETHER_GOLD_ORE
+displayName: VIP Festivo
+color: RED
+pos1: 4904;151;67
+pos2: 4945;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  VIP Festivo:
+    description: Block set for VIP Festivo
+    icon: NETHER_GOLD_ORE
+    blocks:
+      NETHER_GOLD_ORE:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      NETHER_QUARTZ_ORE:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      ANCIENT_DEBRIS:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 4921;156;74;-177.97388;3.8447156

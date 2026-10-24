@@ -1,0 +1,43 @@
+name: quebranozes
+type: BLOCKS
+world: minas
+icon: PRISMARINE
+displayName: Quebra-Nozes
+color: GRAY
+pos1: 2904;151;67
+pos2: 2945;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  Quebra-Nozes:
+    description: Block set for Quebra-Nozes
+    icon: PRISMARINE
+    blocks:
+      PRISMARINE:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      PRISMARINE_BRICKS:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      DARK_PRISMARINE:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 2921;156;74;-177.97388;3.8447156

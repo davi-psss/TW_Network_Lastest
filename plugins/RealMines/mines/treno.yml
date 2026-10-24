@@ -1,0 +1,43 @@
+name: treno
+type: BLOCKS
+world: minas
+icon: DIAMOND_BLOCK
+displayName: Treno
+color: PURPLE
+pos1: 2504;151;67
+pos2: 2545;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  Treno:
+    description: Block set for Treno
+    icon: DIAMOND_BLOCK
+    blocks:
+      DIAMOND_BLOCK:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      OBSIDIAN:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      SEA_LANTERN:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 2521;156;74;-177.97388;3.8447156

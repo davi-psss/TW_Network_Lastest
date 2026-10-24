@@ -1,0 +1,43 @@
+name: krampus
+type: BLOCKS
+world: minas
+icon: SMOOTH_QUARTZ
+displayName: Krampus
+color: PURPLE
+pos1: 6104;151;67
+pos2: 6145;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  Krampus:
+    description: Block set for Krampus
+    icon: SMOOTH_QUARTZ
+    blocks:
+      SMOOTH_QUARTZ:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      NETHER_BRICKS:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      RED_NETHER_BRICKS:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 6121;156;74;-177.97388;3.8447156

@@ -1,8 +1,8 @@
 menu_title: '&8» &6&lMENU PRINCIPAL &8| &eRankup'
 open_command:
   - menu
-  - rankup
   - ajuda
+register_command: true
 size: 45
 
 items:
@@ -46,25 +46,22 @@ items:
       - '&7Evolua seu rank para minerar'
       - '&7em áreas mais lucrativas!'
 
-  # Minas do Rankup
+  # Central de Mineracao do TW-Minas
   'minas':
     material: DIAMOND_PICKAXE
     slot: 20
-    display_name: '&b&lMINAS'
+    display_name: '&b&lIR MINERAR'
     lore:
-      - '&7Acesse a sua mina atual'
-      - '&7para coletar blocos e evoluir.'
+      - '&7Abra a central de mineracao do servidor.'
+      - '&7Ela leva voce a melhor mina liberada.'
       - ''
-      - '&eClique para ver as minas disponíveis!'
+      - '&eClique para abrir a central!'
     left_click_commands:
       - '[sound] UI_BUTTON_CLICK'
-      - '[close]'
-      - '[player] warp minas'
+      - '[player] mina'
     right_click_commands:
       - '[sound] UI_BUTTON_CLICK'
-      - '[close]'
-      - '[player] warp minas'
-
+      - '[player] mina'
   # Kits do Jogador
   'kits':
     material: CHEST

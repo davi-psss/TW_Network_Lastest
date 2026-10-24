@@ -1,0 +1,387 @@
+menu_title: '&8» &b&lMINAS'
+open_command:
+  - minaslista
+  - minhasminas
+size: 54
+
+items:
+  'borda':
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 17
+      - 18
+      - 26
+      - 27
+      - 30
+      - 32
+      - 33
+      - 34
+      - 35
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+      - 45
+      - 46
+      - 47
+      - 48
+      - 50
+      - 51
+      - 52
+      - 53
+    display_name: ' '
+
+  'mina_carvao':
+    material: COAL_ORE
+    slot: 10
+    display_name: '&8&lMINA CARVAO'
+    lore:
+      - '&7Acesso liberado pelo rank Carvao.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.carvao.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp carvao'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp carvao'
+
+  'mina_neve':
+    material: ICE
+    slot: 11
+    display_name: '&f&lMINA NEVE'
+    lore:
+      - '&7Acesso liberado pelo rank Neve.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.neve.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp neve'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp neve'
+
+  'mina_sino':
+    material: GOLD_ORE
+    slot: 12
+    display_name: '&e&lMINA SINO'
+    lore:
+      - '&7Acesso liberado pelo rank Sino.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.sino.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp sino'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp sino'
+
+  'mina_biscoito':
+    material: IRON_ORE
+    slot: 13
+    display_name: '&6&lMINA BISCOITO'
+    lore:
+      - '&7Acesso liberado pelo rank Biscoito.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.biscoito.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp biscoito'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp biscoito'
+
+  'mina_duende':
+    material: LAPIS_ORE
+    slot: 14
+    display_name: '&a&lMINA DUENDE'
+    lore:
+      - '&7Acesso liberado pelo rank Duende.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.duende.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp duende'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp duende'
+
+  'mina_rena':
+    material: REDSTONE_ORE
+    slot: 15
+    display_name: '&c&lMINA RENA'
+    lore:
+      - '&7Acesso liberado pelo rank Rena.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.rena.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp rena'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp rena'
+
+  'mina_treno':
+    material: DIAMOND_BLOCK
+    slot: 16
+    display_name: '&4&lMINA TRENO'
+    lore:
+      - '&7Acesso liberado pelo rank Treno.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.treno.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp treno'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp treno'
+
+  'mina_quebranozes':
+    material: PRISMARINE
+    slot: 19
+    display_name: '&5&lMINA QUEBRA-NOZES'
+    lore:
+      - '&7Acesso liberado pelo rank Quebra-Nozes.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.quebranozes.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp quebranozes'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp quebranozes'
+
+  'mina_estrela':
+    material: COPPER_ORE
+    slot: 20
+    display_name: '&e&lMINA ESTRELA'
+    lore:
+      - '&7Acesso liberado pelo rank Estrela.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.estrela.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp estrela'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp estrela'
+
+  'mina_noel':
+    material: DEEPSLATE_COPPER_ORE
+    slot: 21
+    display_name: '&c&lMINA NOEL'
+    lore:
+      - '&7Acesso liberado pelo rank Noel.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.noel.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp noel'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp noel'
+
+  'mina_vip_polar':
+    material: DEEPSLATE_GOLD_ORE
+    slot: 22
+    display_name: '&b&lMINA VIP POLAR'
+    lore:
+      - '&7Acesso liberado pelo grupo VIP Polar.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.vip_polar.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp vip_polar'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp vip_polar'
+
+  'mina_vip_nevasca':
+    material: DEEPSLATE_LAPIS_ORE
+    slot: 23
+    display_name: '&9&lMINA VIP NEVASCA'
+    lore:
+      - '&7Acesso liberado pelo grupo VIP Nevasca.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.vip_nevasca.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp vip_nevasca'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp vip_nevasca'
+
+  'mina_vip_festivo':
+    material: NETHER_GOLD_ORE
+    slot: 24
+    display_name: '&6&lMINA VIP FESTIVO'
+    lore:
+      - '&7Acesso liberado pelo grupo VIP Festivo.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.vip_festivo.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp vip_festivo'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp vip_festivo'
+
+  'mina_grinch':
+    material: AMETHYST_BLOCK
+    slot: 25
+    display_name: '&2&lMINA GRINCH'
+    lore:
+      - '&7Acesso liberado pelo prestigio Grinch.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.grinch.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp grinch'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp grinch'
+
+  'mina_yeti':
+    material: SMOOTH_BASALT
+    slot: 28
+    display_name: '&b&lMINA YETI'
+    lore:
+      - '&7Acesso liberado pelo prestigio Yeti.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.yeti.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp yeti'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp yeti'
+
+  'mina_krampus':
+    material: NETHER_BRICKS
+    slot: 29
+    display_name: '&4&lMINA KRAMPUS'
+    lore:
+      - '&7Acesso liberado pelo prestigio Krampus.'
+      - ''
+      - '&eClique para ir ao spawn da mina.'
+    view_requirement:
+      requirements:
+        permission:
+          type: has permission
+          permission: realmines.krampus.break
+    left_click_commands:
+      - '[close]'
+      - '[player] mine tp krampus'
+    right_click_commands:
+      - '[close]'
+      - '[player] mine tp krampus'
+
+  'informacao':
+    material: BOOK
+    slot: 31
+    display_name: '&e&lMINAS LIBERADAS'
+    lore:
+      - '&7A lista mostra somente as minas'
+      - '&7que o seu grupo pode acessar.'
+      - ''
+      - '&7Os ranks liberam as minas anteriores.'
+      - '&7VIPs e prestigios liberam sua mina.'
+
+  'voltar':
+    material: ARROW
+    slot: 49
+    display_name: '&e&lVoltar ao menu'
+    left_click_commands:
+      - '[openguimenu] principal'
+    right_click_commands:
+      - '[openguimenu] principal'

@@ -1,0 +1,43 @@
+name: neve
+type: BLOCKS
+world: minas
+icon: ICE
+displayName: Neve
+color: WHITE
+pos1: 504;151;67
+pos2: 545;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  Neve:
+    description: Block set for Neve
+    icon: ICE
+    blocks:
+      ICE:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      PACKED_ICE:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      COBBLESTONE:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 521;156;74;-177.97388;3.8447156

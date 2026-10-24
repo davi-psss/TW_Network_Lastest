@@ -1,0 +1,43 @@
+name: carvao
+type: BLOCKS
+world: minas
+icon: COAL_ORE
+displayName: Carvao
+color: BLUE
+pos1: 145;151;67
+pos2: 104;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  Carvão:
+    description: 'Description for block set: default'
+    icon: COAL_ORE
+    blocks:
+      STONE:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      COAL_ORE:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      COAL_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 121;156;74;-177.97388;3.8447156

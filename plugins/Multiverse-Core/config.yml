@@ -201,7 +201,7 @@ messaging:
   invalid-papi-format-returns-blank: false
   
   # This config option defines the default language Multiverse should use.
-  default-locale: und
+  default-locale: en
   
   # This config option defines if Multiverse should use the player's language based on their client's language.
   # If the player's language does not have a translation, it will use the default language set above instead.

@@ -1,0 +1,43 @@
+name: noel
+type: BLOCKS
+world: minas
+icon: DEEPSLATE_COPPER_ORE
+displayName: Noel
+color: BLUE
+pos1: 3704;151;67
+pos2: 3745;67;35
+reset:
+  silent: true
+  commands: []
+  percentage:
+    active: true
+    value: 20
+  time:
+    active: true
+    value: 120
+    countdown: 120
+settings:
+  break-permission: true
+  discard-break-action-messages: false
+  send-mined-items-to-inventory: false
+  block-sets-mode: INCREMENTAL
+  depth-direction: Up
+signs: []
+block-sets:
+  Noel:
+    description: Block set for Noel
+    icon: DEEPSLATE_COPPER_ORE
+    blocks:
+      DEEPSLATE_COPPER_ORE:
+        percentage: 0.6
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      DEEPSLATE_IRON_ORE:
+        percentage: 0.3
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+      RAW_IRON_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: 3721;156;74;-177.97388;3.8447156
