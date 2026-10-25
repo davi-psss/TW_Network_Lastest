@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Kamu tidak bisa menggunakan /<command> saat dibekukan!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Kamu tidak bisa melakukan itu saat dibekukan!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Kamu masih dibekukan!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Dibekukan <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Dibekukan <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Kamu tidak bisa menggunakan /spawn di dunia ini.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back dinonaktifkan untuk dunia ini.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback dinonaktifkan untuk dunia ini.</color>"
 }

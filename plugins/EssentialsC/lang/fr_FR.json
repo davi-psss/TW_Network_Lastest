@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Tu ne peux pas utiliser /<command> quand tu es gelé !</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Tu ne peux pas faire ça quand tu es gelé !</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Tu es toujours gelé !</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Gelé <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Gelé <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Tu ne peux pas utiliser /spawn dans ce monde.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back est désactivé pour ce monde.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback est désactivé pour ce monde.</color>"
 }

@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>لا يمكنك استخدام /<command> أثناء التجميد!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>لا يمكنك فعل ذلك أثناء التجميد!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>ما زلت مجمّداً!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>مجمّد <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>مجمّد <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>لا يمكنك استخدام /spawn في هذا العالم.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back معطل لهذا العالم.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback معطل لهذا العالم.</color>"
 }

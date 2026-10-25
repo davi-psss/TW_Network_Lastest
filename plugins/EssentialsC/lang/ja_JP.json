@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>フリーズ中は /<command> を使用できません!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>フリーズ中はそれを実行できません!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>あなたはまだフリーズされています!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>フリーズ <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>フリーズ <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>このワールドでは /spawn を使用できません。</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>このワールドでは /back が無効になっています。</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>このワールドでは /dback が無効になっています。</color>"
 }

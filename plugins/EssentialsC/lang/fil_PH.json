@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Hindi mo magagamit ang /<command> habang naka-freeze!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Hindi mo magagawa iyan habang naka-freeze!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Naka-freeze ka pa rin!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Naka-freeze <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Naka-freeze <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Hindi mo magagamit ang /spawn sa mundong ito.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>Naka-disable ang /back para sa mundong ito.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>Naka-disable ang /dback para sa mundong ito.</color>"
 }

@@ -1,5 +1,5 @@
 # EssentialsC — config.yml (Configuração para Servidor Lobby)
-config-version: 27
+config-version: 28
 
 debug: false
 default-language: en_US
@@ -161,10 +161,10 @@ tpa:
   timeout: 60
   max-pending: 5
   max-outgoing: 1
-  deny-movement: true
   particles: true
   sounds: true
   blocked-worlds: []
+  cancel-on-movement: true
 
 # Desativado em lobby
 home:
@@ -199,6 +199,7 @@ spawn:
   cancel-on-movement: false
   teleport-on-respawn: true
   allow-beds-to-override: false
+  blocked-worlds: []
 
 join-leave-messages:
   enabled: true
@@ -215,6 +216,7 @@ back:
   particles: true
   sounds: true
   cancel-on-movement: true
+  blocked-worlds: []
 
 # Scoreboard nativo desativado (para não conflitar se você for usar outro plugin de scoreboard dedicado)
 # Caso QUEIRA a scoreboard do EssentialsC, apenas mude enabled para true

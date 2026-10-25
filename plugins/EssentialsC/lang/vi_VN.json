@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Bạn không thể dùng /<command> khi đang bị đóng băng!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Bạn không thể làm điều đó khi đang bị đóng băng!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Bạn vẫn đang bị đóng băng!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Đóng băng <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Đóng băng <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Bạn không thể sử dụng /spawn trong thế giới này.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back đã bị tắt cho thế giới này.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback đã bị tắt cho thế giới này.</color>"
 }

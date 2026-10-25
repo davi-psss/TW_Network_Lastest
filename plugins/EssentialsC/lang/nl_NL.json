@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Je kunt /<command> niet gebruiken terwijl je bevroren bent!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Dat kun je niet doen terwijl je bevroren bent!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Je bent nog steeds bevroren!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Bevroren <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Bevroren <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Je kunt /spawn niet gebruiken in deze wereld.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back is uitgeschakeld voor deze wereld.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback is uitgeschakeld voor deze wereld.</color>"
 }

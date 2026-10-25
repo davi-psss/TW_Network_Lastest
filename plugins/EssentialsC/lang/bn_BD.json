@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>ফ্রিজ অবস্থায় /<command> ব্যবহার করা যাবে না!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>ফ্রিজ অবস্থায় এটি করা যাবে না!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>আপনি এখনও ফ্রিজ অবস্থায় আছেন!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>ফ্রিজ <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>ফ্রিজ <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>এই জগতে তুমি /spawn ব্যবহার করতে পারবে না।</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>এই জগতের জন্য /back নিষ্ক্রিয় করা আছে।</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>এই জগতের জন্য /dback নিষ্ক্রিয় করা আছে।</color>"
 }

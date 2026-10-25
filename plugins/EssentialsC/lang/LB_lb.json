@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Du kanns /<command> net benotzen, wann s du agefréier bass!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Dat kanns du net maachen, wann s du agefréier bass!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Du bass nach ëmmer agefréier!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Agefréier <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Agefréier <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Du kanns /spawn net an dëser Welt benotzen.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back ass fir dës Welt desaktivéiert.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback ass fir dës Welt desaktivéiert.</color>"
 }

@@ -258,7 +258,7 @@ push-log-entries: true
 # - If you have LuckPerms installed on your backend servers as well as a BungeeCord proxy, you
 #   should set this option to false on either your backends or your proxies, to avoid players being
 #   messaged twice about log entries.
-broadcast-received-log-entries: true
+broadcast-received-log-entries: false
 
 # Settings for Redis.
 # Port 6379 is used by default; set address to "host:port" if differs
@@ -353,7 +353,7 @@ require-sender-group-membership-to-modify: false
 # - Notifications are only sent to those with the appropriate permission to receive them
 # - They can also be temporarily enabled/disabled on a per-user basis using
 #   '/lp log notify <on|off>'
-log-notify: true
+log-notify: false
 
 # Defines a list of log entries which should not be sent as notifications to users.
 #

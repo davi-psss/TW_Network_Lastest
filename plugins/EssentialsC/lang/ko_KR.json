@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>얼어 있는 동안 /<command>을(를) 사용할 수 없습니다!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>얼어 있는 동안 할 수 없습니다!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>아직 얼어 있습니다!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>얼음 <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>얼음 <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>이 월드에서는 /spawn을 사용할 수 없습니다.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>이 월드에서는 /back이(가) 비활성화되어 있습니다.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>이 월드에서는 /dback이(가) 비활성화되어 있습니다.</color>"
 }

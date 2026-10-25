@@ -4,7 +4,7 @@ Mines:
     Percentage: '&6Warning &fThis mine is going to be reset.'
     Announcement: '&fMine &9%mine% &fjust &areset.'
     Warning: '&7[&6Warning&7] &r%mine% &fwill reset in &b%time% &9seconds.'
-  Teleport: '&fTeleported to mine &9%mine%'
+  Teleport: '&b&lTW Network &8» &aTeleportado para a mina &e%mine%'
   Teleport-Set: '&fTeleport &Aset &ffor mine %mine%'
   Countdown-Set: '&fCountdown &aset &ffor mine %mine% to &b%time% &fseconds.'
   Countdown-Set-Unsuccessful: '&cCould not set countdown for mine %mine%. Invalid time or mine cannot be reset by time.'

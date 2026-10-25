@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>உறைந்திருக்கும்போது /<command>-ஐ பயன்படுத்த முடியாது!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>உறைந்திருக்கும்போது அதைச் செய்ய முடியாது!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>நீங்கள் இன்னும் உறைந்துள்ளீர்கள்!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>உறைந்தது <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>உறைந்தது <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>இந்த உலகில் நீங்கள் /spawn ஐப் பயன்படுத்த முடியாது.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>இந்த உலகிற்கு /back முடக்கப்பட்டுள்ளது.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>இந்த உலகிற்கு /dback முடக்கப்பட்டுள்ளது.</color>"
 }

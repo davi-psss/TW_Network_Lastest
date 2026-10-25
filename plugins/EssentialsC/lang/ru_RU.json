@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Вы не можете использовать /<command>, пока заморожены!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Вы не можете этого делать, пока заморожены!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Вы всё ещё заморожены!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Заморожен <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Заморожен <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Вы не можете использовать /spawn в этом мире.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back отключён для этого мира.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback отключён для этого мира.</color>"
 }

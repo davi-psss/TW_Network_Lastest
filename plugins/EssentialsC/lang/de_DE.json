@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Du kannst /<command> nicht benutzen, solange du eingefroren bist!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Das kannst du nicht tun, solange du eingefroren bist!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Du bist immer noch eingefroren!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Eingefroren <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Eingefroren <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Du kannst /spawn in dieser Welt nicht verwenden.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back ist für diese Welt deaktiviert.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback ist für diese Welt deaktiviert.</color>"
 }

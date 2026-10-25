@@ -968,5 +968,8 @@
   "freeze.command_blocked": "<prefix> <color:#FF0000>Dondurulmuşken /<command> kullanamazsın!</color>",
   "freeze.action_blocked": "<prefix> <color:#FF0000>Dondurulmuşken bunu yapamazsın!</color>",
   "freeze.join_still_frozen": "<prefix> <color:#FF0000>Hâlâ dondurulmuş durumdasın!</color>",
-  "user.states.frozen": "<prefix> <color:#AAAAAA>Dondurulmuş <color:#666666>»</color> <value></color>"
+  "user.states.frozen": "<prefix> <color:#AAAAAA>Dondurulmuş <color:#666666>»</color> <value></color>",
+  "spawn.blocked_world": "<prefix> <color:#FF0000>Bu dünyada /spawn kullanamazsın.</color>",
+  "back.blocked_world": "<prefix> <color:#FF0000>/back bu dünya için devre dışı.</color>",
+  "dback.blocked_world": "<prefix> <color:#FF0000>/dback bu dünya için devre dışı.</color>"
 }
